@@ -7,23 +7,23 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
   return (
-    <header className="sticky top-0 z-50 bg-white">
+    <header className="sticky top-0 z-50 bg-[#FEFEFE]" >
       <nav className="flex items-center justify-between w-full px-8 py-0 ">
         <div className="z-50 flex items-center justify-between w-full md:w-auto ">
           <img
             alt="logo"
             style={{
-              height: 90,
-              width: 60,
-              marginTop: 20,
+              height: 55,
+              width: 100,
+              marginTop: 30,
               paddingBottom: "2rem",
             }}
-            src={require("../images/rama.png")}
+            src={require("../images/Nextmovee.png")}
             width={80}
           />
           <div className="md:hidden" onClick={() => setOpen((open) => !open)}>
             {open ? (
-              <AiOutlineClose size={30} color="#F7CCAC" />
+              <AiOutlineClose size={30} color="#C69B7B" />
             ) : (
               <AiOutlineMenu size={30} />
             )}
@@ -35,7 +35,7 @@ const Navbar = () => {
             to={"/"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#F7CCAC", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
                 : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
             }
           >
@@ -46,7 +46,7 @@ const Navbar = () => {
             to={"/services"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#F7CCAC", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
                 : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
             }
           >
@@ -57,7 +57,7 @@ const Navbar = () => {
             to={"/properties"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#F7CCAC", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
                 : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
             }
           >
@@ -68,7 +68,7 @@ const Navbar = () => {
             to={"/about"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#F7CCAC", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
                 : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
             }
           >
@@ -77,7 +77,7 @@ const Navbar = () => {
         </div>
         <div className="hidden md:inline-block">
           <button
-            className="bg-[#3A3845] hover:bg-[#F7CCAC] focus:bg-[#37064B] active:bg-[#1A0125] transition-colors 
+            className="bg-[#3A3845] hover:bg-[#C69B7B] focus:bg-[#37064B] active:bg-[#1A0125] transition-colors 
             duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-4 py-3 rounded-md"
             onClick={() => navigate("/contact")}
           >
@@ -110,7 +110,7 @@ const Navbar = () => {
                     fontSize: 12,
                   }
                 : {
-                    color: "#F7CCAC",
+                    color: "#C69B7B",
                     fontWeight: "600",
                     marginTop: 20,
                     fontSize: 12,
@@ -126,7 +126,7 @@ const Navbar = () => {
             style={({ isActive }) =>
               isActive
                 ? { color: "#Fff", fontWeight: "600", fontSize: 12 }
-                : { color: "#F7CCAC", fontWeight: "600", fontSize: 12 }
+                : { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
             }
           >
             SERVICES
@@ -138,7 +138,7 @@ const Navbar = () => {
             style={({ isActive }) =>
               isActive
                 ? { color: "#Fff", fontSize: 12 }
-                : { color: "#F7CCAC", fontSize: 12 }
+                : { color: "#C69B7B", fontSize: 12 }
             }
           >
             PROPERTIES
@@ -149,7 +149,7 @@ const Navbar = () => {
             style={({ isActive }) =>
               isActive
                 ? { color: "#Fff", fontWeight: "600", fontSize: 12 }
-                : { color: "#F7CCAC", fontWeight: "600", fontSize: 12 }
+                : { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
             }
           >
             ABOUT US
@@ -157,7 +157,7 @@ const Navbar = () => {
 
           <div className="">
             <button
-              className="bg-[#F7CCAC] hover:bg-[#F7CCAd] focus:bg-[#F7CCAC] active:bg-[#F7CCAC] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded-md"
+              className="bg-[#C69B7B] hover:bg-[#F7CCAd] focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded-md"
               onClick={() => navigate("/contact")}
             >
               <p

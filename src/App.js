@@ -10,7 +10,6 @@ import About_Us from "./pages/About_Us";
 import Services from "./pages/Services";
 import Properties from "./pages/Properties";
 
-
 const App = () => {
 
   useEffect(() => {
