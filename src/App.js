@@ -9,6 +9,10 @@ import Home from "./pages/Home";
 import About_Us from "./pages/About_Us";
 import Services from "./pages/Services";
 import Properties from "./pages/Properties";
+import CreateAcc from "./auth/CreateAcc";
+import Login from "./auth/Login";
+
+
 
 const App = () => {
 
@@ -25,6 +29,8 @@ const App = () => {
       <Route path={'/contact'} element={<Contact_Us />} />
       <Route path={'/services'} element={<Services />} />
       <Route path={'/properties'} element={<Properties />} />
+      <Route path={'/create'} element={<CreateAcc/>} />
+      <Route path={'/login'} element={<Login />} />
     </Route>
     <Route path={'*'} element={<Error />} />
   </Routes>

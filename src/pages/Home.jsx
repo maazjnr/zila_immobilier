@@ -80,7 +80,7 @@ export default function Home() {
         </div>
 
         <div
-          className="mt-5  space-y-3 justify-center flex-column md:flex-col "
+          className="mt-5  flex flex-wrap justify-evenly "
         >
           <button
             style={{
@@ -122,6 +122,8 @@ export default function Home() {
           >
             Rent a property
           </button>
+
+          
 
           
         </div>

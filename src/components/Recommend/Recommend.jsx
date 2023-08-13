@@ -344,6 +344,332 @@ export default function Recommend() {
             </div>
           </div>
         </div>
+
+        <div className="card">
+          <div className="w-full p-3">
+            <div className="image-card">
+              <img className="img" src={require("../../images/house4.jpg")} />
+            </div>
+
+            <div style={{ marginTop: 15 }}>
+              <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+                <h1
+                  style={{ fontSize: 20 }}
+                  className="text-primary font-bold "
+                >
+                  $7 million
+                  <span className="text-[#999] text-xs font-medium">
+                    /for sale
+                  </span>
+                </h1>
+
+                <div className="border border-solid border-secondary rounded p-2">
+                  <BiSolidMessageSquareDetail />
+                </div>
+              </div>
+
+              <h1
+                style={{ fontSize: 20 }}
+                className="text-secondaryx font-normal "
+              >
+                The  Old Steele
+              </h1>
+
+              <div className="flex flex-row mt-1 items-center">
+                <MdLocationOn />
+                <p className=" ml-1 text-xs text-poppins">
+                103 Lake Shores, Michiang, IN
+                </p>
+              </div>
+
+              <div className="mt-3 flex flex-row justify-start ">
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <IoIosBed size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    2 Beds
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <IoIosBed size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    1 Bathrooms
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <MdOutlineKitchen size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    1 Kitchen
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="w-full p-3">
+            <div className="image-card">
+              <img className="img" src={require("../../images/house6.jpg")} />
+            </div>
+
+            <div style={{ marginTop: 15 }}>
+              <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+                <h1
+                  style={{ fontSize: 20 }}
+                  className="text-primary font-bold "
+                >
+                  $5 million
+                  <span className="text-[#999] text-xs font-medium">
+                    /for sale
+                  </span>
+                </h1>
+
+                <div className="border border-solid border-secondary rounded p-2">
+                  <BiSolidMessageSquareDetail />
+                </div>
+              </div>
+
+              <h1
+                style={{ fontSize: 20 }}
+                className="text-secondaryx font-normal "
+              >
+                Curvy Black lite
+              </h1>
+
+              <div className="flex flex-row mt-1 items-center">
+                <MdLocationOn />
+                <p className=" ml-1 text-xs text-poppins">
+                243 Crew Low road, International road
+                </p>
+              </div>
+
+              <div className="mt-3 flex flex-row justify-start ">
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <IoIosBed size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    3 Beds
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <IoIosBed size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    2 Bathrooms
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <MdOutlineKitchen size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    2 Kitchen
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="w-full p-3">
+            <div className="image-card">
+              <img className="img" src={require("../../images/house5.jpg")} />
+            </div>
+
+            <div style={{ marginTop: 15 }}>
+              <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+                <h1
+                  style={{ fontSize: 20 }}
+                  className="text-primary font-bold "
+                >
+                  $1,002
+                  <span className="text-[#999] text-xs font-medium">
+                    /2 weeks
+                  </span>
+                </h1>
+
+                <div className="border border-solid border-secondary rounded p-2">
+                  <BiSolidMessageSquareDetail />
+                </div>
+              </div>
+
+              <h1
+                style={{ fontSize: 20 }}
+                className="text-secondaryx font-normal "
+              >
+                Flat Rich Style
+              </h1>
+
+              <div className="flex flex-row mt-1 items-center">
+                <MdLocationOn />
+                <p className=" ml-1 text-xs text-poppins">
+                Birmingham line 2033, Globe Itl 
+                </p>
+              </div>
+
+              <div className="mt-3 flex flex-row justify-start ">
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <IoIosBed size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    4 Beds
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <IoIosBed size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    2 Bathrooms
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 3,
+                    padding: 5,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <MdOutlineKitchen size={12} className="text-secondaryx" />
+                  <p
+                    style={{
+                      fontSize: 10,
+                      marginLeft: 3,
+                      fontWeight: "bold",
+                      color: "700",
+                    }}
+                    className="ml-2, text-[#aeaeae]"
+                  >
+                    2 Kitchen
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
       </section>
     </div>
   );

@@ -77,15 +77,15 @@ const Navbar = () => {
         </div>
         <div className="hidden md:inline-block">
           <button
-            className="bg-[#3A3845] hover:bg-[#C69B7B] focus:bg-[#37064B] active:bg-[#1A0125] transition-colors 
-            duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-4 py-3 rounded-md"
-            onClick={() => navigate("/contact")}
+            className="bg-[#3A3845] hover:bg-[#C69B7B] focus:bg-[#826F66] active:bg-[#826F66] transition-colors 
+            duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-4 py-3 rounded"
+            onClick={() => navigate("/create")}
           >
             <p
               style={{ fontWeight: 700, fontSize: 12 }}
               className="text-[#FFF] leading-none"
             >
-              CONTACT US
+             Create an account
             </p>
           </button>
         </div>
@@ -157,14 +157,14 @@ const Navbar = () => {
 
           <div className="">
             <button
-              className="bg-[#C69B7B] hover:bg-[#F7CCAd] focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded-md"
-              onClick={() => navigate("/contact")}
+              className="bg-[#C69B7B] hover:bg-[#F7CCAd] focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
+              onClick={() => navigate("/create")}
             >
               <p
                 style={{ fontWeight: 700, fontSize: 12 }}
                 className="text-[#3a3845] leading-none"
               >
-                CONTACT US
+               Create an account
               </p>
             </button>
           </div>
