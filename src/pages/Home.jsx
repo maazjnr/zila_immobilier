@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "../components/Navbar"; // Make sure to adjust the path to your Navbar component
+import Recommend from "../components/Recommend/Recommend";
 
 const imageUrls = [
   "https://img.freepik.com/free-photo/corridor-unfocused_1203-1210.jpg",
@@ -48,10 +49,8 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col items-center min-h-screen">
-
-
-      <div className="flex flex-col items-center p-10 min-h-screen ">
+    <main className="flex flex-col  items-center min-h-screen">
+      <div className="flex flex-col items-center p-10 ">
         {/* Background image */}
         <div style={backgroundImageStyle}></div>
 
@@ -59,10 +58,10 @@ export default function Home() {
           <section className="text-center">
             <h1
               className="text-primary text-3xl sm:text-7xl font-primary leading-tight font-bold"
-              style={{ lineHeight: 1.3 }}
+              style={{ lineHeight: 1.5 }}
             >
-              Buy, sell and rent homes easily with{" "}
-              <span className="text-secondaryx">Nextmovee</span>.
+              Buy, Sell and Rent Properties with
+              <span className="text-secondaryx"> Nextmovee</span>.
             </h1>
 
             <p className="p-3">
@@ -80,52 +79,57 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="mt-10 w-full justify-between flex flex-col md:flex-row justify-center items-center md:space-x-2">
-          <div className="text-center">
-           <h3 className="text-center md:text-left font-bold mb-3  text-primary bg-gray-200 p-2">Recommendation</h3>
+        <div
+          className="mt-5  space-y-3 justify-center flex-column md:flex-col "
+        >
+          <button
+            style={{
+              backgroundColor: "#3A3845",
+              color: "#ffffff",
+              padding: "0.5rem 1rem",
+              borderRadius: "0.25rem",
+              fontWeight: "600",
+              fontSize: "15px",
+              margin: "5px"
+              
+            }}
+          >
+            Buy a property
+          </button>
+          <button
+            style={{
+              backgroundColor: "#3A3845",
+              color: "#ffffff",
+              padding: "0.5rem 1rem",
+              borderRadius: "0.25rem",
+              fontWeight: "600",
+              fontSize: "15px",
+              margin: "5px"
+            }}
+          >
+            Sell a property
+          </button>
+          <button
+            style={{
+              backgroundColor: "#3A3845",
+              color: "#ffffff",
+              padding: "0.5rem 1rem",
+              borderRadius: "0.25rem",
+              fontWeight: "600",
+              fontSize: "15px",
+              margin: "5px"
+            }}
+          >
+            Rent a property
+          </button>
 
-            <h1 className="text-3xl text-center md:text-left  font-normal text-primary">
-              We recommend the best price, location <br />  and a safe environment for you
-            </h1>
-          </div>
-
-          <div style={{textAlign: "left"}} className="mt-5 flex-col md:flex md:flex-row md:justify-start md:items-center md:mt-0 space-y-2 md:space-y-0 md:space-x-2">
-            <button
-              style={{
-                backgroundColor: "#3A3845",
-                color: "#ffffff",
-                padding: "0.5rem 1rem",
-                borderRadius: "0.25rem",
-                marginRight: 20
-              }}
-            >
-              Buy
-            </button>
-            <button
-              style={{
-                backgroundColor: "#3A3845",
-                color: "#ffffff",
-                padding: "0.5rem 1rem",
-                borderRadius: "0.25rem",
-                marginRight: 20
-              }}
-            >
-              Sell
-            </button>
-            <button
-              style={{
-                backgroundColor: "#3A3845",
-                color: "#ffffff",
-                padding: "0.5rem 1rem",
-                borderRadius: "0.25rem",
-                marginRight: 20
-              }}
-            >
-              Rent
-            </button>
-          </div>
-        </section>
+          
+        </div>
       </div>
+
+      {/* Recommend component */}
+      <Recommend />
+      {/* Recommend component */}
     </main>
   );
 }
