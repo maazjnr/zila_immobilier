@@ -79,54 +79,51 @@ export default function Home() {
           </div>
         </div>
 
-        <div
-          className="mt-5  flex flex-wrap justify-evenly "
-        >
-          <button
-            style={{
-              backgroundColor: "#3A3845",
-              color: "#ffffff",
-              padding: "0.5rem 1rem",
-              borderRadius: "0.25rem",
-              fontWeight: "600",
-              fontSize: "15px",
-              margin: "5px"
-              
-            }}
-          >
-            Buy a property
-          </button>
-          <button
-            style={{
-              backgroundColor: "#3A3845",
-              color: "#ffffff",
-              padding: "0.5rem 1rem",
-              borderRadius: "0.25rem",
-              fontWeight: "600",
-              fontSize: "15px",
-              margin: "5px"
-            }}
-          >
-            Sell a property
-          </button>
-          <button
-            style={{
-              backgroundColor: "#3A3845",
-              color: "#ffffff",
-              padding: "0.5rem 1rem",
-              borderRadius: "0.25rem",
-              fontWeight: "600",
-              fontSize: "15px",
-              margin: "5px"
-            }}
-          >
-            Rent a property
-          </button>
+        <div className="mt-5 flex flex-wrap justify-evenly">
+  <button
+    style={{
+      backgroundColor: "#3A3845",
+      color: "#ffffff",
+      borderRadius: "0.25rem",
+      fontWeight: "600",
+      fontSize: "15px",
+      margin: "5px",
+      width: "200px",   // Add the desired width
+      height: "40px"    // Add the desired height
+    }}
+  >
+    Buy a property
+  </button>
+  <button
+    style={{
+      backgroundColor: "#3A3845",
+      color: "#ffffff",
+      borderRadius: "0.25rem",
+      fontWeight: "600",
+      fontSize: "15px",
+      margin: "5px",
+      width: "200px",   // Add the desired width
+      height: "40px"    // Add the desired height
+    }}
+  >
+    Sell a property
+  </button>
+  <button
+    style={{
+      backgroundColor: "#3A3845",
+      color: "#ffffff",
+      borderRadius: "0.25rem",
+      fontWeight: "600",
+      fontSize: "15px",
+      margin: "5px",
+      width: "200px",   // Add the desired width
+      height: "40px"    // Add the desired height
+    }}
+  >
+    Rent a property
+  </button>
+</div>
 
-          
-
-          
-        </div>
       </div>
 
       {/* Recommend component */}
