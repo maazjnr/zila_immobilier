@@ -99,7 +99,7 @@ export default function Home() {
           </button>
         </div>
 
-        <section className="mt-5 px-2 ">
+        <section className="mt-2 pb-5 px-2 ">
           <div className="text-center ">
             <h3 className="text-center font-bold mb-0 text-primary uppercase bg-gray-200 p-2">
               Why Nextmovee
