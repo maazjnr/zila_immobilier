@@ -21,6 +21,11 @@ body {
   background-position: center;
 }
 
+.home-btn{
+
+  border: 1px solid #999;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
