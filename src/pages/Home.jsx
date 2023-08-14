@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
 import Navbar from "../components/Navbar"; // Make sure to adjust the path to your Navbar component
 import Recommend from "../components/Recommend/Recommend";
 import { MdSell } from "react-icons/md";
@@ -7,56 +5,13 @@ import { FaBookmark } from "react-icons/fa";
 import { AiFillShopping } from "react-icons/ai";
 import {BiSearch} from "react-icons/bi";
 
-const imageUrls = [
-  "https://img.freepik.com/free-photo/corridor-unfocused_1203-1210.jpg",
-  // Add more image URLs here
-];
 
 export default function Home() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const backgroundImageStyle = {
-    backgroundImage: `url(${imageUrls[currentImageIndex]})`,
-    backgroundSize: "cover",
-    backgroundPosition: "right", // Change to "right" to hide left side
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100vw",
-    height: "100vh",
-    zIndex: -1,
-  };
-
-  const [randomImage, setRandomImage] = useState("");
-
-  useEffect(() => {
-    const fetchRandomImage = async () => {
-      try {
-        const response = await axios.get(
-          "https://source.unsplash.com/featured/?house"
-        );
-        setRandomImage(response.request.responseURL);
-      } catch (error) {
-        console.error("Error fetching image:", error);
-      }
-    };
-
-    fetchRandomImage();
-  }, []);
-
+  
   return (
     <main className="flex flex-col items-center ">
-      <div className="flex flex-col items-center p-5 ">
-        {/* Background image */}
-        <div style={backgroundImageStyle}></div>
+      <div className="flex home-bg flex-col items-center p-5 ">
+
 
         <div className="flex flex-col items-center mt-5 relative z-10">
           <section className="text-center">
@@ -102,15 +57,15 @@ export default function Home() {
               fontWeight: "600",
               fontSize: "15px",
               margin: "5px",
-              width: "220px",
-              height: "50px",
+              width: "80px",
+              height: "40px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
             <MdSell />
-            <p className="ml-2 text-secondary"> BUY A PROPERTY</p>
+            <p className="ml-2 text-secondary">BUY</p>
           </button>
           <button
             style={{
@@ -120,15 +75,15 @@ export default function Home() {
               fontWeight: "600",
               fontSize: "15px",
               margin: "5px",
-              width: "220px",
-              height: "50px",
+              width: "80px",
+              height: "40px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
             <AiFillShopping />
-            <p className="ml-2 text-secondary "> SELL A PROPERTY</p>
+            <p className="ml-2 text-secondary "> SELL</p>
           </button>
           <button
             style={{
@@ -138,20 +93,19 @@ export default function Home() {
               fontWeight: "600",
               fontSize: "15px",
               margin: "5px",
-              width: "220px",
-              height: "50px",
+              width: "80px",
+              height: "40px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
             <FaBookmark />
-            <p className="ml-2 text-secondary"> RENT A PROPERTY</p>
+            <p className="ml-2 text-secondary"> RENT</p>
           </button>
         </div>
-      </div>
 
-      <section className="mt-5 px-5 ">
+        <section className="mt-5 px-5 ">
         <div className="text-center ">
           <h3 className="text-center font-bold mb-0 text-primary uppercase bg-gray-200 p-2">
             Why Nextmovee
@@ -170,6 +124,9 @@ export default function Home() {
             dream property is out there, and we're here to help you find it."</p>
         </div>
       </section>
+      </div>
+
+
 
       {/* Recommend component */}
       <Recommend />
