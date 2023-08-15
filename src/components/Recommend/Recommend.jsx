@@ -7,7 +7,7 @@ import { MdOutlineKitchen } from "react-icons/md";
 
 export default function Recommend() {
   return (
-    <div className="container">
+    <div style={{zIndex: 999}} className="container">
 
       <section className="flex flex-wrap justify-evenly">
         <div className="card">

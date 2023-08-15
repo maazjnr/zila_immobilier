@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div style={{zIndex: 999}} className="mt-5 mb-8 flex flex-wrap justify-evenly ">
+        <div style={{zIndex: 3}} className="mt-5 mb-8 flex flex-wrap justify-evenly ">
           <button className="home-btn"
             style={{
               backgroundColor: "#F7CCAC",
@@ -105,17 +105,18 @@ export default function Home() {
           </button>
         </div>
 
-        <section className="mt-10 w-full mb-10 ">
+        <section style={{zIndex: 3}} className="mt-10 w-full mb-10 ">
         <div className="text-center ">
           <h3 className="text-center font-bold mb-0  text-secondary bg-gray-200 p-2">
             Recommendation
           </h3>
 
-          <h1 className="text-1xl text-center font-normal px-5 text-primary">
+          <h1 className="text-1xl text-center font-normal px-5 text-[#fff]">
             We recommend the best price, location and a safe environment for you
           </h1>
         </div>
       </section>
+      
       </div>
 
       
