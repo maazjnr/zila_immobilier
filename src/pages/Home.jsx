@@ -4,22 +4,28 @@ import { MdSell } from "react-icons/md";
 import { FaBookmark } from "react-icons/fa";
 import { AiFillShopping } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
+import VideoBg from '../video/homevid.mp4';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center ">
       <div className="flex home-bg flex-col items-center p-3 ">
+
+      <video autoPlay muted loop>
+        <source src={VideoBg} type="video/mp4" />
+      </video>
+
         <div className="flex flex-col items-center mt-5 relative z-10">
           <section className="text-center">
             <h1
-              className="text-primary text-2xl  sm:text-5xl font-primary leading-tight font-bold"
+              className="text-secondary pt-3 text-2xl  sm:text-5xl font-primary leading-tight font-bold"
               style={{ lineHeight: 1.5 }}
             >
               Buy, Sell and Rent Properties with
-              <span className="text-secondaryx"> Nextmovee</span>.
+              <span className="text-[#ffffff]"> Nextmovee</span>.
             </h1>
 
-            <p className="py-2 text-justify">
+            <p className="py-2 text-[#fff] text-justify">
               Finding your dream home now is quite difficult, but we can help
               you make your dreams come true. Come find your dream house with us
             </p>
@@ -41,10 +47,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-5 mb-8 flex flex-wrap justify-evenly ">
+        <div style={{zIndex: 999}} className="mt-5 mb-8 flex flex-wrap justify-evenly ">
           <button className="home-btn"
             style={{
-              backgroundColor: "#fff",
+              backgroundColor: "#F7CCAC",
               color: "#ffffff",
               borderRadius: "0.25rem",
               fontWeight: "600",
@@ -59,11 +65,11 @@ export default function Home() {
             }}
           >
             <MdSell color={'#3A3845'} />
-            <p className="ml-0 text-[#3A3845]">BUY</p>
+            <p className="ml-1 text-[#3A3845]">BUY</p>
           </button>
           <button className="home-btn"
             style={{
-              backgroundColor: "#fff",
+              backgroundColor: "#F7CCAC",
               color: "#ffffff",
               borderRadius: "0.25rem",
               fontWeight: "600",
@@ -77,11 +83,11 @@ export default function Home() {
             }}
           >
             <AiFillShopping  color={'#3A3845'} />
-            <p className="ml-0 text-[#3A3845] "> SELL</p>
+            <p className="ml-1 text-[#3A3845] "> SELL</p>
           </button>
           <button className="home-btn"
             style={{
-              backgroundColor: "#fff",
+              backgroundColor: "#F7CCAC",
               color: "#ffffff",
               borderRadius: "0.25rem",
               fontWeight: "600",
@@ -95,32 +101,24 @@ export default function Home() {
             }}
           >
             <FaBookmark color={'#3A3845'} />
-            <p className="ml-0 text-[#3A3845]"> RENT</p>
+            <p className="ml-1 text-[#3A3845]"> RENT</p>
           </button>
         </div>
 
-        <section className="mt-2 pb-5 px-2 ">
-          <div className="text-center ">
-            <h3 className="text-center font-bold mb-0 text-primary uppercase bg-gray-200 p-2">
-              Why Nextmovee
-            </h3>
+        <section className="mt-10 w-full mb-10 ">
+        <div className="text-center ">
+          <h3 className="text-center font-bold mb-0  text-secondary bg-gray-200 p-2">
+            Recommendation
+          </h3>
 
-            <p className="text-md text-center text-justify text-primary">
-              At nextomovee, we're more than just a real estate service – we're
-              your trusted partner in finding the perfect property. Our mission
-              is simple: we recommend the best price, the ideal location, and a
-              safe environment tailored to your needs.
-            </p>
-
-            <p className="text-md text-center text-justify text-primary mt-3">
-              {" "}
-              Join us in your real estate journey, and experience the difference
-              of personalized recommendations that prioritize your needs. Your
-              dream property is out there, and we're here to help you find it."
-            </p>
-          </div>
-        </section>
+          <h1 className="text-1xl text-center font-normal px-5 text-primary">
+            We recommend the best price, location and a safe environment for you
+          </h1>
+        </div>
+      </section>
       </div>
+
+      
 
       {/* Recommend component */}
       <Recommend />

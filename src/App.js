@@ -13,7 +13,6 @@ import CreateAcc from "./auth/CreateAcc";
 import Login from "./auth/Login";
 
 
-
 const App = () => {
 
   useEffect(() => {

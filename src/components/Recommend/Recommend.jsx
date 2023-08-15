@@ -9,17 +9,6 @@ export default function Recommend() {
   return (
     <div className="container">
 
-<section className="mt-10 w-full mb-10 ">
-        <div className="text-center mt-10 ">
-          <h3 className="text-center font-bold mb-0  text-secondary bg-gray-200 p-2">
-            Recommendation
-          </h3>
-
-          <h1 className="text-1xl text-center font-normal px-5 text-primary">
-            We recommend the best price, location and a safe environment for you
-          </h1>
-        </div>
-      </section>
       <section className="flex flex-wrap justify-evenly">
         <div className="card">
           <div className="w-full p-3">
