@@ -4,28 +4,27 @@ import { MdSell } from "react-icons/md";
 import { FaBookmark } from "react-icons/fa";
 import { AiFillShopping } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
-import VideoBg from '../video/homevid.mp4';
+import VideoBg from "../video/homevid.mp4";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center ">
-      <div className="flex home-bg flex-col items-center p-3 ">
-
-      <video autoPlay muted loop>
-        <source src={VideoBg} type="video/mp4" />
-      </video>
+      <div className="flex home-bg justify-center flex-col items-center p-3 ">
+        <video autoPlay muted loop>
+          <source src={VideoBg} type="video/mp4" />
+        </video>
 
         <div className="flex flex-col items-center mt-5 relative z-10">
           <section className="text-center">
             <h1
-              className="text-secondary pt-3 text-2xl  sm:text-5xl font-primary leading-tight font-bold"
+              className="text-secondary  text-2xl font-primary mb-3 sm:text-5xl font-primary leading-tight font-bold"
               style={{ lineHeight: 1.5 }}
             >
               Buy, Sell and Rent Properties with
-              <span className="text-[#ffffff]"> Nextmovee</span>.
+              <span className="text-[#ffffff] font-primary"> Nextmovee</span>.
             </h1>
 
-            <p className="py-2 text-[#fff] text-justify">
+            <p className="py-2 text-[#fff] font-primary text-justify">
               Finding your dream home now is quite difficult, but we can help
               you make your dreams come true. Come find your dream house with us
             </p>
@@ -34,7 +33,7 @@ export default function Home() {
             <input
               type="text"
               placeholder="Search for your dream home..."
-              className="border shadow-lg rounded px-5 py-3 w-full bg-white"
+              className="border font-primary shadow-lg rounded px-5 py-3 w-full bg-white"
             />
             <div className="absolute inset-y-0 right-0 flex items-center mr-2">
               <button
@@ -47,8 +46,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div style={{zIndex: 3}} className="mt-5 mb-8 flex flex-wrap justify-evenly ">
-          <button className="home-btn"
+        <div
+          style={{ zIndex: 3 }}
+          className="mt-5 mb-8 flex flex-wrap justify-evenly "
+        >
+          <button
+            className="home-btn "
             style={{
               backgroundColor: "#F7CCAC",
               color: "#ffffff",
@@ -61,13 +64,13 @@ export default function Home() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              
             }}
           >
-            <MdSell color={'#3A3845'} />
-            <p className="ml-1 text-[#3A3845]">BUY</p>
+            <MdSell color={"#3A3845"} />
+            <p className="ml-1 text-[#3A3845] font-primary">BUY</p>
           </button>
-          <button className="home-btn"
+          <button
+            className="home-btn"
             style={{
               backgroundColor: "#F7CCAC",
               color: "#ffffff",
@@ -82,10 +85,11 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <AiFillShopping  color={'#3A3845'} />
-            <p className="ml-1 text-[#3A3845] "> SELL</p>
+            <AiFillShopping color={"#3A3845"} />
+            <p className="ml-1 text-[#3A3845] font-primary"> SELL</p>
           </button>
-          <button className="home-btn"
+          <button
+            className="home-btn"
             style={{
               backgroundColor: "#F7CCAC",
               color: "#ffffff",
@@ -100,26 +104,24 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <FaBookmark color={'#3A3845'} />
-            <p className="ml-1 text-[#3A3845]"> RENT</p>
+            <FaBookmark color={"#3A3845"} />
+            <p className="ml-1 text-[#3A3845] font-primary"> RENT</p>
           </button>
         </div>
 
-        <section style={{zIndex: 3}} className="mt-10 w-full mb-10 ">
-        <div className="text-center ">
-          <h3 className="text-center font-bold mb-0  text-secondary bg-gray-200 p-2">
-            Recommendation
-          </h3>
+        <section style={{ zIndex: 3 }} className="mt-10 w-full mb-10 ">
+          <div className="text-center ">
+            <h3 className="text-center font-bold mb-0 font-primary text-secondary bg-gray-200 p-2">
+              Recommendation
+            </h3>
 
-          <h1 className="text-1xl text-center font-normal px-5 text-[#fff]">
-            We recommend the best price, location and a safe environment for you
-          </h1>
-        </div>
-      </section>
-      
+            <h1 className="text-1xl text-center font-primary font-normal px-5 text-[#fff]">
+              We recommend the best price, location and a safe environment for
+              you
+            </h1>
+          </div>
+        </section>
       </div>
-
-      
 
       {/* Recommend component */}
       <Recommend />
