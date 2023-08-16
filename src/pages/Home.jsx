@@ -128,7 +128,7 @@ export default function Home() {
               className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
               onClick={() => navigate("/about")}
             >
-                <HiUserGroup size={11} color={'#3a3845'} />
+                <HiUserGroup size={13} color={'#3a3845'} />
               <p
                 style={{ fontWeight: 700, fontSize: 12 }}
                 className="text-[#3a3845] ml-1 font-primary leading-none"
