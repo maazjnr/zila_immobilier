@@ -5,8 +5,12 @@ import { FaBookmark } from "react-icons/fa";
 import { AiFillShopping } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
 import VideoBg from "../video/homevid.mp4";
+import { useNavigate } from "react-router-dom";
+import {HiUserGroup} from 'react-icons/hi';
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <main className="flex flex-col items-center ">
       <div className="flex home-bg justify-center flex-col items-center px-3 ">
@@ -17,7 +21,7 @@ export default function Home() {
         <div className="flex flex-col  items-center text-center  relative z-10">
           <section className="text-center">
             <h1
-              className="text-secondary  text-4xl font-primary  mb-0  font-primary leading-tight font-bold"
+              className="text-secondary  text-4xl font-primary  mb-3  font-primary leading-normal font-bold"
               style={{ lineHeight: 1.5 }}
             >
               Buy, Sell and Rent Properties with
@@ -111,13 +115,32 @@ export default function Home() {
         </div>
 
        
-        <section style={{zIndex: 3, marginTop: 8}}>
+        <section style={{zIndex: 3, marginTop: 15}}>
           <h1 className="text-md text-center py-1 font-bold text-sm text-[#fff]">Find Your Next Home Anywhere Around the Globe</h1>
-          <p className="text-secondary text-xs  text-center">
+          <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
             Through our proprietary platform, Nextmovee is changing how agents
             and clients navigate the process of finding or selling a home.
           </p>
         </section>
+
+        <div className="mt-10">
+            <button
+              className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
+              onClick={() => navigate("/about")}
+            >
+                <HiUserGroup color={'#3a3845'} />
+              <p
+                style={{ fontWeight: 700, fontSize: 12 }}
+                className="text-[#3a3845] ml-1 leading-none"
+              >
+               More about nextmovee
+              </p>
+            
+            </button>
+
+            
+          </div>
+
       </div>
 
       {/* Recommend component */}
@@ -126,3 +149,6 @@ export default function Home() {
     </main>
   );
 }
+
+
+//https://lasvegas.wpresidence.net/
