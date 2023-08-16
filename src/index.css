@@ -21,6 +21,7 @@ body {
   overflow: hidden;
   background-size: cover;
   background-position: center;
+
 }
 video {
   position: absolute;
@@ -39,8 +40,10 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(37, 31, 44, 0.895); /* Adjust the opacity to your preference */
+  background-color: rgba(37, 31, 44, 0.895); 
 }
+
+
 
 
 .home-btn{

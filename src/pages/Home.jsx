@@ -9,46 +9,30 @@ import VideoBg from "../video/homevid.mp4";
 export default function Home() {
   return (
     <main className="flex flex-col items-center ">
-      <div className="flex home-bg justify-center flex-col items-center p-3 ">
+      <div className="flex home-bg justify-center flex-col items-center px-3 ">
         <video autoPlay muted loop>
           <source src={VideoBg} type="video/mp4" />
         </video>
 
-        <div className="flex flex-col items-center mt-5 relative z-10">
+        <div className="flex flex-col  items-center text-center  relative z-10">
           <section className="text-center">
             <h1
-              className="text-secondary  text-2xl font-primary mb-3 sm:text-5xl font-primary leading-tight font-bold"
+              className="text-secondary  text-4xl font-primary  mb-0  font-primary leading-tight font-bold"
               style={{ lineHeight: 1.5 }}
             >
               Buy, Sell and Rent Properties with
               <span className="text-[#ffffff] font-primary"> Nextmovee</span>.
             </h1>
 
-            <p className="py-2 text-[#fff] font-primary text-justify">
+            <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
               Finding your dream home now is quite difficult, but we can help
-              you make your dreams come true. Come find your dream house with us
+              you make your dreams come true. Come find your dream house with
+              us.
             </p>
           </section>
-          <div className="w-full mt-6 relative">
-            <input
-              type="text"
-              placeholder="Search for your dream home..."
-              className="border font-primary shadow-lg rounded px-5 py-3 w-full bg-white"
-            />
-            <div className="absolute inset-y-0 right-0 flex items-center mr-2">
-              <button
-                style={{ backgroundColor: "#aeaeae" }}
-                className="bg-gray rounded px-3 py-2 text-white focus:outline-none"
-              >
-                <BiSearch color="white" className="h-5 w-5" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div
+          <div
           style={{ zIndex: 3 }}
-          className="mt-5 mb-8 flex flex-wrap justify-evenly "
+          className="mt-4  flex flex-wrap justify-evenly "
         >
           <button
             className="home-btn "
@@ -109,17 +93,30 @@ export default function Home() {
           </button>
         </div>
 
-        <section style={{ zIndex: 3 }} className="mt-10 w-full mb-10 ">
-          <div className="text-center ">
-            <h3 className="text-center font-bold mb-0 font-primary text-secondary bg-gray-200 p-2">
-              Recommendation
-            </h3>
-
-            <h1 className="text-1xl text-center font-primary font-normal px-5 text-[#fff]">
-              We recommend the best price, location and a safe environment for
-              you
-            </h1>
+          <div className="w-full mt-14 relative">
+            <input
+              type="text"
+              placeholder="Search for your dream home..."
+              className="border font-primary shadow-lg rounded px-5 py-3 w-full bg-white"
+            />
+            <div className="absolute inset-y-0 right-0 flex items-center mr-2">
+              <button
+                style={{ backgroundColor: "#3A3845" }}
+                className="bg-gray rounded px-3 py-2 text-white focus:outline-none"
+              >
+                <BiSearch color="white" className="h-5 w-5" />
+              </button>
+            </div>
           </div>
+        </div>
+
+       
+        <section style={{zIndex: 3, marginTop: 8}}>
+          <h1 className="text-md text-center py-1 font-bold text-sm text-[#fff]">Find Your Next Home Anywhere Around the Globe</h1>
+          <p className="text-secondary text-xs  text-center">
+            Through our proprietary platform, Nextmovee is changing how agents
+            and clients navigate the process of finding or selling a home.
+          </p>
         </section>
       </div>
 

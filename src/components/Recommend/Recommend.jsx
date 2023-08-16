@@ -7,7 +7,18 @@ import { MdOutlineKitchen } from "react-icons/md";
 
 export default function Recommend() {
   return (
-    <div style={{zIndex: 999}} className="container">
+    <div style={{ zIndex: 999 }} className="container">
+      <section style={{ zIndex: 3 }} className="mt-5 w-full mb-10 ">
+        <div className="text-center ">
+          <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
+            Recommendation
+          </h3>
+
+          <h1 className="text-1xl text-center font-primary font-normal px-5 text-primary">
+            We recommend the best price, location and a safe environment for you
+          </h1>
+        </div>
+      </section>
 
       <section className="flex flex-wrap justify-evenly">
         <div className="card">
@@ -20,10 +31,10 @@ export default function Recommend() {
               <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
                 <h1
                   style={{ fontSize: 20 }}
-                  className="text-primary font-bold "
+                  className="text-primary  font-primary font-bold "
                 >
                   $2 Million
-                  <span className="text-[#999] text-xs font-medium">
+                  <span className="text-[#999] font-primary text-xs font-medium">
                     /for sale
                   </span>
                 </h1>
@@ -35,14 +46,14 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-normal "
+                className="text-secondaryx font-primary font-normal "
               >
                 Monochrome House
               </h1>
 
               <div className="flex flex-row mt-1 items-center">
                 <MdLocationOn />
-                <p className=" ml-1 text-xs text-poppins">
+                <p className=" ml-1 font-primary text-xs ">
                   2699 Green valley, Highlight Lake, FL
                 </p>
               </div>
@@ -86,7 +97,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Bathrooms
                   </p>
@@ -108,7 +119,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     1 Kitchen
                   </p>
@@ -128,7 +139,7 @@ export default function Recommend() {
               <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
                 <h1
                   style={{ fontSize: 20 }}
-                  className="text-primary font-bold "
+                  className="text-primary font-primary font-bold "
                 >
                   $2,620
                   <span className="text-[#999] text-xs font-medium">
@@ -143,14 +154,14 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-normal "
+                className="text-secondaryx font-primary font-normal "
               >
                 Faulkner Ave
               </h1>
 
               <div className="flex flex-row mt-1 items-center">
                 <MdLocationOn />
-                <p className=" ml-1 text-xs text-poppins">
+                <p className=" ml-1 font-primary text-xs text-poppins">
                   2699 Green valley, Highlight Lake, FL
                 </p>
               </div>
@@ -172,7 +183,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     3 Beds
                   </p>
@@ -194,7 +205,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Bathrooms
                   </p>
@@ -216,7 +227,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     1 Kitchen
                   </p>
@@ -236,10 +247,10 @@ export default function Recommend() {
               <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
                 <h1
                   style={{ fontSize: 20 }}
-                  className="text-primary font-bold "
+                  className="text-primary font-primary font-bold "
                 >
                   $3,080
-                  <span className="text-[#999] text-xs font-medium">
+                  <span className="text-[#999] text-xs font-primary font-medium">
                     /6 weeks
                   </span>
                 </h1>
@@ -251,14 +262,14 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-normal "
+                className="text-secondaryx font-primary font-normal "
               >
                 Beverly Springfield
               </h1>
 
               <div className="flex flex-row mt-1 items-center">
                 <MdLocationOn />
-                <p className=" ml-1 text-xs text-poppins">
+                <p className=" ml-1 text-xs font-primary text-poppins">
                   2821 Lake, Sevilla, Palm Harbor, TX
                 </p>
               </div>
@@ -280,7 +291,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     3 Beds
                   </p>
@@ -302,7 +313,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Bathrooms
                   </p>
@@ -324,7 +335,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     1 Kitchen
                   </p>
@@ -344,10 +355,10 @@ export default function Recommend() {
               <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
                 <h1
                   style={{ fontSize: 20 }}
-                  className="text-primary font-bold "
+                  className="text-primary font-primary font-bold "
                 >
                   $7 million
-                  <span className="text-[#999] text-xs font-medium">
+                  <span className="text-[#999] font-primary text-xs font-medium">
                     /for sale
                   </span>
                 </h1>
@@ -359,15 +370,15 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-normal "
+                className="text-secondaryx font-primary font-normal "
               >
-                The  Old Steele
+                The Old Steele
               </h1>
 
               <div className="flex flex-row mt-1 items-center">
                 <MdLocationOn />
-                <p className=" ml-1 text-xs text-poppins">
-                103 Lake Shores, Michiang, IN
+                <p className=" ml-1 text-xs font-primary text-poppins">
+                  103 Lake Shores, Michiang, IN
                 </p>
               </div>
 
@@ -388,7 +399,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Beds
                   </p>
@@ -410,7 +421,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     1 Bathrooms
                   </p>
@@ -432,7 +443,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     1 Kitchen
                   </p>
@@ -455,7 +466,7 @@ export default function Recommend() {
                   className="text-primary font-bold "
                 >
                   $5 million
-                  <span className="text-[#999] text-xs font-medium">
+                  <span className="text-[#999] font-primary text-xs font-medium">
                     /for sale
                   </span>
                 </h1>
@@ -474,8 +485,8 @@ export default function Recommend() {
 
               <div className="flex flex-row mt-1 items-center">
                 <MdLocationOn />
-                <p className=" ml-1 text-xs text-poppins">
-                243 Crew Low road, International road
+                <p className=" ml-1 font-primary text-xs text-poppins">
+                  243 Crew Low road, International road
                 </p>
               </div>
 
@@ -496,7 +507,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     3 Beds
                   </p>
@@ -518,7 +529,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Bathrooms
                   </p>
@@ -540,7 +551,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Kitchen
                   </p>
@@ -560,10 +571,10 @@ export default function Recommend() {
               <div className="flex flex-row justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
                 <h1
                   style={{ fontSize: 20 }}
-                  className="text-primary font-bold "
+                  className="text-primary font-primary font-bold "
                 >
                   $1,002
-                  <span className="text-[#999] text-xs font-medium">
+                  <span className="text-[#999] font-primary text-xs font-medium">
                     /2 weeks
                   </span>
                 </h1>
@@ -575,15 +586,15 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-normal "
+                className="text-secondaryx font-primary font-normal "
               >
                 Flat Rich Style
               </h1>
 
               <div className="flex flex-row mt-1 items-center">
                 <MdLocationOn />
-                <p className=" ml-1 text-xs text-poppins">
-                Birmingham line 2033, Globe Itl 
+                <p className=" ml-1 font-primary text-xs ">
+                  Birmingham line 2033, Globe Itl
                 </p>
               </div>
 
@@ -604,7 +615,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     4 Beds
                   </p>
@@ -626,7 +637,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Bathrooms
                   </p>
@@ -648,7 +659,7 @@ export default function Recommend() {
                       fontWeight: "bold",
                       color: "700",
                     }}
-                    className="ml-2, text-[#aeaeae]"
+                    className="ml-2 font-primary text-[#aeaeae]"
                   >
                     2 Kitchen
                   </p>
@@ -657,8 +668,6 @@ export default function Recommend() {
             </div>
           </div>
         </div>
-
-        
       </section>
     </div>
   );
