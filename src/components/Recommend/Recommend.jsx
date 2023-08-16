@@ -677,15 +677,6 @@ export default function Recommend() {
           </h3>
 
           <p className="text-xs pt-2 text-left px-2 text-primary">
-            Are you in search of your ideal home, a place where your dreams can
-            take root and flourish? Look no further than Nextmovee, where we
-            specialize in revolutionizing the way you Buy, Sell, and Rent
-            properties. Our team is dedicated to simplifying the intricate
-            process of finding your perfect abode, making it not just a
-            transaction, but a transformative experience,
-          </p>
-
-          <p className="text-xs pt-2 text-left px-2 text-primary">
             Navigating the complex real estate landscape can be a daunting task,
             but with Nextmovee by your side, the journey becomes effortless and
             exciting. Our commitment to excellence means that every step of your
