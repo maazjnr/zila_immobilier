@@ -8,13 +8,13 @@ import { MdOutlineKitchen } from "react-icons/md";
 export default function Recommend() {
   return (
     <div style={{ zIndex: 999 }} className="container">
-      <section style={{ zIndex: 3 }} className="mt-5 w-full mb-10 ">
+      <section style={{ zIndex: 3 }} className="mt-0 w-full mb-2 ">
         <div className="text-center ">
           <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
             Recommendation
           </h3>
 
-          <h1 className="text-1xl text-center font-primary font-normal px-5 text-primary">
+          <h1 className="text-xs text-center font-normal px-5 text-primary">
             We recommend the best price, location and a safe environment for you
           </h1>
         </div>
@@ -667,6 +667,59 @@ export default function Recommend() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section style={{ zIndex: 3 }} className="mt-10 w-full mb-1 ">
+        <div className="">
+          <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
+            WHY NEXTMOVEE ?
+          </h3>
+
+          <p className="text-xs pt-2 text-left px-2 text-primary">
+            Are you in search of your ideal home, a place where your dreams can
+            take root and flourish? Look no further than Nextmovee, where we
+            specialize in revolutionizing the way you Buy, Sell, and Rent
+            properties. Our team is dedicated to simplifying the intricate
+            process of finding your perfect abode, making it not just a
+            transaction, but a transformative experience,
+          </p>
+
+          <p className="text-xs pt-2 text-left px-2 text-primary">
+            Navigating the complex real estate landscape can be a daunting task,
+            but with Nextmovee by your side, the journey becomes effortless and
+            exciting. Our commitment to excellence means that every step of your
+            property journey is meticulously curated to match your preferences,
+            needs, and aspirations.
+          </p>
+
+          <p className="text-xs pt-2 text-left px-2 text-primary">
+            At Nextmovee, we understand that a home is more than just bricks and
+            mortar; it's where your life story unfolds. Our cutting-edge
+            technology empowers you to explore a diverse range of properties,
+            ensuring that you're presented with options that resonate with your
+            unique vision. Whether you're a first-time buyer, a seasoned
+            investor, or someone looking to find a temporary haven, we have the
+            solutions tailored to you.
+          </p>
+
+          <p className="text-xs pt-2 text-left px-2 text-primary">
+            What sets us apart is our personalized approach. We believe that
+            each individual's dream is distinct, and that's why our dedicated
+            team of experts works closely with you to transform your vision into
+            reality. From matching you with the right property to negotiating
+            the best deals and guiding you through the intricate legal
+            processes, we're your trusted partners at every stage.
+          </p>
+
+          <p className="text-xs pt-2 text-left px-2 text-primary">
+            So, if you're seeking to embark on a journey towards your dream
+            home, let Nextmovee be your guide. Unveil a world of possibilities
+            as we redefine the way you buy, sell, and rent properties. Your
+            dream home is within reach, and we're here to make it a reality.
+            Join us on this exciting venture and let's turn your dreams into
+            addresses.
+          </p>
         </div>
       </section>
     </div>
