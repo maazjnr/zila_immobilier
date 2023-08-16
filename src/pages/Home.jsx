@@ -123,7 +123,7 @@ export default function Home() {
           </p>
         </section>
 
-        <div className="mt-10">
+        <div className="mt-7">
             <button
               className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
               onClick={() => navigate("/about")}
