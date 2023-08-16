@@ -125,12 +125,12 @@ export default function Home() {
 
         <div className="mt-7">
             <button
-              className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
+              className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center justify-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
               onClick={() => navigate("/about")}
             >
                 <HiUserGroup size={13} color={'#3a3845'} />
               <p
-                style={{ fontWeight: 700, fontSize: 12 }}
+                style={{ fontWeight: 700, fontSize: 13 }}
                 className="text-[#3a3845] ml-1 font-primary leading-none"
               >
                More about nextmovee
