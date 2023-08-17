@@ -41,7 +41,7 @@ export default function Home() {
           <button
             className="home-btn "
             style={{
-              backgroundColor: "#F7CCAC",
+              backgroundColor: "#C69B7B",
               color: "#ffffff",
               borderRadius: "0.25rem",
               fontWeight: "800",
@@ -60,7 +60,7 @@ export default function Home() {
           <button
             className="home-btn"
             style={{
-              backgroundColor: "#F7CCAC",
+              backgroundColor: "#C69B7B",
               color: "#ffffff",
               borderRadius: "0.25rem",
               fontWeight: "800",
@@ -79,7 +79,7 @@ export default function Home() {
           <button
             className="home-btn "
             style={{
-              backgroundColor: "#F7CCAC",
+              backgroundColor: "#C69B7B",
               color: "#ffffff",
               borderRadius: "0.25rem",
               fontWeight: "800",
@@ -97,11 +97,11 @@ export default function Home() {
           </button>
         </div>
 
-          <div className="w-full mt-14 relative">
+          <div className="w-full mb-5 mt-14 relative">
             <input
               type="text"
               placeholder="Search for your dream home..."
-              className="border text-xs font-primary shadow-lg rounded px-5 py-3 w-full bg-white"
+              className="border text-xs font-primary shadow-lg rounded px-5 py-5 w-full bg-white"
             />
             <div className="absolute inset-y-0 right-0 flex items-center mr-1">
               <button
