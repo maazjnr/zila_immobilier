@@ -47,15 +47,15 @@ export default function Home() {
               fontWeight: "600",
               fontSize: "15px",
               margin: "5px",
-              width: "90px",
+              width: "160px",
               height: "40px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <MdSell color={"#3A3845"} />
-            <p className="ml-1 text-[#3A3845] font-primary">BUY</p>
+            <MdSell size={12} color={"#3A3845"} />
+            <p className="ml-1 text-xs  text-[#3A3845] font-primary">BUY PROPERTY</p>
           </button>
           <button
             className="home-btn"
@@ -66,15 +66,15 @@ export default function Home() {
               fontWeight: "600",
               fontSize: "15px",
               margin: "5px",
-              width: "90px",
+              width: "160px",
               height: "40px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <AiFillShopping color={"#3A3845"} />
-            <p className="ml-1 text-[#3A3845] font-primary"> SELL</p>
+            <AiFillShopping size={12} color={"#3A3845"} />
+            <p className="ml-1 text-xs  text-[#3A3845] font-primary"> SELL PROPERTY</p>
           </button>
           <button
             className="home-btn"
@@ -85,15 +85,15 @@ export default function Home() {
               fontWeight: "600",
               fontSize: "15px",
               margin: "5px",
-              width: "90px",
+              width: "160px",
               height: "40px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <FaBookmark color={"#3A3845"} />
-            <p className="ml-1 text-[#3A3845] font-primary"> RENT</p>
+            <FaBookmark size={12} color={"#3A3845"} />
+            <p className="ml-1 text-[#3A3845] text-xs font-primary"> RENT PROPERTY </p>
           </button>
         </div>
 
