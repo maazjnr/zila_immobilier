@@ -4,6 +4,7 @@ import { MdLocationOn } from "react-icons/md";
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { IoIosBed } from "react-icons/io";
 import { MdOutlineKitchen } from "react-icons/md";
+import { BiSolidContact } from "react-icons/bi";
 
 export default function Recommend() {
   return (
@@ -676,7 +677,7 @@ export default function Recommend() {
             WHY NEXTMOVEE ?
           </h3>
 
-          <p className="text-xs pt-2 text-left px-2 text-primary">
+          <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             Navigating the complex real estate landscape can be a daunting task,
             but with Nextmovee by your side, the journey becomes effortless and
             exciting. Our commitment to excellence means that every step of your
@@ -684,7 +685,7 @@ export default function Recommend() {
             needs, and aspirations.
           </p>
 
-          <p className="text-xs pt-2 text-left px-2 text-primary">
+          <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             At Nextmovee, we understand that a home is more than just bricks and
             mortar; it's where your life story unfolds. Our cutting-edge
             technology empowers you to explore a diverse range of properties,
@@ -694,7 +695,7 @@ export default function Recommend() {
             solutions tailored to you.
           </p>
 
-          <p className="text-xs pt-2 text-left px-2 text-primary">
+          <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             What sets us apart is our personalized approach. We believe that
             each individual's dream is distinct, and that's why our dedicated
             team of experts works closely with you to transform your vision into
@@ -703,7 +704,7 @@ export default function Recommend() {
             processes, we're your trusted partners at every stage.
           </p>
 
-          <p className="text-xs pt-2 text-left px-2 text-primary">
+          <p className="text-md pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             So, if you're seeking to embark on a journey towards your dream
             home, let Nextmovee be your guide. Unveil a world of possibilities
             as we redefine the way you buy, sell, and rent properties. Your
@@ -711,6 +712,24 @@ export default function Recommend() {
             Join us on this exciting venture and let's turn your dreams into
             addresses.
           </p>
+
+          <div className="mt-7">
+            <button
+              className="bg-[#3a3845] hover:bg-[#F7CCAd] flex flex-row items-center justify-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
+              onClick={() => navigate("/about")}
+            >
+                <BiSolidContact size={13} color={'#fff'} />
+              <p
+                style={{ fontWeight: 700, fontSize: 13 }}
+                className="text-[#fff] ml-1 font-primary leading-none"
+              >
+               Contact us
+              </p>
+            
+            </button>
+
+            
+          </div>
         </div>
       </section>
     </div>
