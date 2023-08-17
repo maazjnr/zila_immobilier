@@ -6,7 +6,7 @@ import { AiFillShopping } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
 import VideoBg from "../video/homevid.mp4";
 import { useNavigate } from "react-router-dom";
-import {HiUserGroup} from 'react-icons/hi';
+import { HiUserGroup } from "react-icons/hi";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -35,67 +35,75 @@ export default function Home() {
             </p>
           </section>
           <div
-          style={{ zIndex: 3 }}
-          className="mt-4  flex flex-wrap justify-evenly "
-        >
-          <button
-            className="home-btn "
-            style={{
-              backgroundColor: "#C69B7B",
-              color: "#ffffff",
-              borderRadius: "0.25rem",
-              fontWeight: "800",
-              fontSize: "15px",
-              margin: "5px",
-              width: "140px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            style={{ zIndex: 3 }}
+            className="mt-4  flex flex-wrap justify-evenly "
           >
-            <MdSell size={12} color={"#3A3845"} />
-            <p className="ml-1 text-xs  text-[#3A3845] font-primary">BUY PROPERTY</p>
-          </button>
-          <button
-            className="home-btn"
-            style={{
-              backgroundColor: "#C69B7B",
-              color: "#ffffff",
-              borderRadius: "0.25rem",
-              fontWeight: "800",
-              fontSize: "15px",
-              margin: "5px",
-              width: "140px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <AiFillShopping size={12} color={"#3A3845"} />
-            <p className="ml-1 text-xs  text-[#3A3845] font-primary"> SELL PROPERTY</p>
-          </button>
-          <button
-            className="home-btn "
-            style={{
-              backgroundColor: "#C69B7B",
-              color: "#ffffff",
-              borderRadius: "0.25rem",
-              fontWeight: "800",
-              fontSize: "15px",
-              margin: "5px",
-              width: "140px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <FaBookmark size={12} color={"#3A3845"} />
-            <p  className="ml-1 text-[#3A3845] text-xs font-primary"> RENT PROPERTY </p>
-          </button>
-        </div>
+            <button
+              className="home-btn "
+              style={{
+                backgroundColor: "#C69B7B",
+                color: "#ffffff",
+                borderRadius: "0.25rem",
+                fontWeight: "800",
+                fontSize: "15px",
+                margin: "5px",
+                width: "140px",
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <MdSell size={12} color={"#3A3845"} />
+              <p className="ml-1 text-xs  text-[#3A3845] font-primary">
+                BUY PROPERTY
+              </p>
+            </button>
+            <button
+              className="home-btn"
+              style={{
+                backgroundColor: "#C69B7B",
+                color: "#ffffff",
+                borderRadius: "0.25rem",
+                fontWeight: "800",
+                fontSize: "15px",
+                margin: "5px",
+                width: "140px",
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <AiFillShopping size={12} color={"#3A3845"} />
+              <p className="ml-1 text-xs  text-[#3A3845] font-primary">
+                {" "}
+                SELL PROPERTY
+              </p>
+            </button>
+            <button
+              className="home-btn "
+              style={{
+                backgroundColor: "#C69B7B",
+                color: "#ffffff",
+                borderRadius: "0.25rem",
+                fontWeight: "800",
+                fontSize: "15px",
+                margin: "5px",
+                width: "140px",
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <FaBookmark size={12} color={"#3A3845"} />
+              <p className="ml-1 text-[#3A3845] text-xs font-primary">
+                {" "}
+                RENT PROPERTY{" "}
+              </p>
+            </button>
+          </div>
 
           <div className="w-full mb-5 mt-14 relative">
             <input
@@ -114,9 +122,10 @@ export default function Home() {
           </div>
         </div>
 
-       
-        <section style={{zIndex: 3, marginTop: 15}}>
-          <h1 className="text-md text-center py-1 font-bold text-sm text-[#fff]">Find Your Next Home Anywhere Around the Globe</h1>
+        <section style={{ zIndex: 3, marginTop: 15 }}>
+          <h1 className="text-md text-center py-1 font-bold text-sm text-[#fff]">
+            Find Your Next Home Anywhere Around the Globe
+          </h1>
           <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
             Through our proprietary platform, Nextmovee is changing how agents
             and clients navigate the process of finding or selling a home.
@@ -124,23 +133,19 @@ export default function Home() {
         </section>
 
         <div className="mt-7">
-            <button
-              className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center justify-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
-              onClick={() => navigate("/about")}
+          <button
+            className="bg-[#fff] hover:bg-[#F7CCAd] flex flex-row items-center justify-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
+            onClick={() => navigate("/about")}
+          >
+            <HiUserGroup size={13} color={"#3a3845"} />
+            <p
+              style={{ fontWeight: 700, fontSize: 13 }}
+              className="text-[#3a3845] ml-1 font-primary leading-none"
             >
-                <HiUserGroup size={13} color={'#3a3845'} />
-              <p
-                style={{ fontWeight: 700, fontSize: 13 }}
-                className="text-[#3a3845] ml-1 font-primary leading-none"
-              >
-               More about nextmovee
-              </p>
-            
-            </button>
-
-            
-          </div>
-
+              More about nextmovee
+            </p>
+          </button>
+        </div>
       </div>
 
       {/* Recommend component */}
@@ -149,6 +154,5 @@ export default function Home() {
     </main>
   );
 }
-
 
 //https://lasvegas.wpresidence.net/
