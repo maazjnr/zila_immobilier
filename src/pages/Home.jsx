@@ -44,10 +44,10 @@ export default function Home() {
               backgroundColor: "#F7CCAC",
               color: "#ffffff",
               borderRadius: "0.25rem",
-              fontWeight: "600",
+              fontWeight: "800",
               fontSize: "15px",
               margin: "5px",
-              width: "160px",
+              width: "140px",
               height: "40px",
               display: "flex",
               justifyContent: "center",
@@ -63,10 +63,10 @@ export default function Home() {
               backgroundColor: "#F7CCAC",
               color: "#ffffff",
               borderRadius: "0.25rem",
-              fontWeight: "600",
+              fontWeight: "800",
               fontSize: "15px",
               margin: "5px",
-              width: "160px",
+              width: "140px",
               height: "40px",
               display: "flex",
               justifyContent: "center",
@@ -77,15 +77,15 @@ export default function Home() {
             <p className="ml-1 text-xs  text-[#3A3845] font-primary"> SELL PROPERTY</p>
           </button>
           <button
-            className="home-btn"
+            className="home-btn "
             style={{
               backgroundColor: "#F7CCAC",
               color: "#ffffff",
               borderRadius: "0.25rem",
-              fontWeight: "600",
+              fontWeight: "800",
               fontSize: "15px",
               margin: "5px",
-              width: "160px",
+              width: "140px",
               height: "40px",
               display: "flex",
               justifyContent: "center",
@@ -93,7 +93,7 @@ export default function Home() {
             }}
           >
             <FaBookmark size={12} color={"#3A3845"} />
-            <p className="ml-1 text-[#3A3845] text-xs font-primary"> RENT PROPERTY </p>
+            <p  className="ml-1 text-[#3A3845] text-xs font-primary"> RENT PROPERTY </p>
           </button>
         </div>
 
