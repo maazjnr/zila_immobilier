@@ -24,6 +24,7 @@ body {
   background-position: center;
 
 }
+
 video {
   position: absolute;
   top: 0;
@@ -41,7 +42,7 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(37, 31, 44, 0.895); 
+  background-color: rgba(37, 31, 44, 0.895);
 }
 
 
@@ -50,10 +51,10 @@ video {
 
 .about-container {
   height: 100vh;
-    position: relative;
-    width: 100%;
-    background-image: url('./images//house5.jpg');
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  background-image: url('./images//house5.jpg');
+  background-size: cover;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -66,7 +67,7 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(37, 31, 44, 0.895); 
+  background-color: rgba(37, 31, 44, 0.895);
 }
 
 .about-title {
@@ -77,9 +78,29 @@ video {
 }
 
 
+.aboutOurCompany {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
 
+.about-our-container {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  display: grid;
+  grid-template: column;
+  place-items: center;
+  background-color: white;
+  height: 100%;
+}
 
-
+.about-our-title{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
 
 
 
@@ -105,7 +126,8 @@ code {
 /* Example media query for screens with a max width of 600px */
 @media (max-width: 600px) {
   .button-container {
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: column;
+    /* Stack buttons vertically */
   }
 
   .button {
@@ -113,4 +135,3 @@ code {
     font-size: 12px;
   }
 }
-
