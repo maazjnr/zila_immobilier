@@ -32,7 +32,9 @@ function About_Us() {
 
       <section className="about-our-container mt-10 text-center">
         <div className="px-5">
-          <h1 className="text-md text-center py-1 font-bold text-sm text-primary">More about our Company</h1>
+          <h1 className="text-md text-center py-1 font-bold text-sm text-primary">
+            More about our Company
+          </h1>
           <p className="text-sm  text-secondaryx leading-[1.8] text-left text-justify px-2 ">
             Where Vision Meets Home: Crafting Your Perfect Space with Expertise
             and Care. Discover the Pinnacle of Real Estate Excellence, Tailored
@@ -41,17 +43,16 @@ function About_Us() {
         </div>
 
         <div
-            style={{
-              height: 0.1,
-              marginTop: 40,
-              marginBottom: 5,
-              width: "100%",
-              backgroundColor: "#F7CCAC",
-            }}
-          ></div>
+          style={{
+            height: 0.1,
+            marginTop: 40,
+            marginBottom: 5,
+            width: "100%",
+            backgroundColor: "#F7CCAC",
+          }}
+        ></div>
 
         <AboutUsDetails />
-
       </section>
     </main>
   );

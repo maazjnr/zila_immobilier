@@ -111,10 +111,10 @@ export default function Home() {
               placeholder="Search for your dream home..."
               className="border text-xs font-primary shadow-lg rounded px-5 py-5 w-full bg-white"
             />
-            <div className="absolute inset-y-0 right-0 flex items-center mr-1">
+            <div className="absolute inset-y-0 right-0 flex items-center mr-2">
               <button
                 style={{ backgroundColor: "#3A3845" }}
-                className="bg-gray rounded px-3 py-2 text-white focus:outline-none"
+                className="bg-gray rounded px-3 py-3 text-white focus:outline-none"
               >
                 <BiSearch color="white" className="h-5 w-5" />
               </button>
