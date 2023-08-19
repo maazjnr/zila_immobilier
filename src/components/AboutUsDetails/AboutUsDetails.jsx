@@ -61,6 +61,14 @@ function AboutUsDetails() {
           creating a lasting impact.
         </p>
       </div>
+
+
+
+
+      <section>
+        
+      </section>
+
     </main>
   );
 }

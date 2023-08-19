@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUsDetails from "../components/AboutUsDetails/AboutUsDetails";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 function About_Us() {
   return (
@@ -53,7 +54,9 @@ function About_Us() {
         ></div>
 
         <AboutUsDetails />
+        
       </section>
+      <Testimonial />
     </main>
   );
 }
