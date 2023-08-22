@@ -1,10 +1,13 @@
 import React from "react";
 import AboutUsDetails from "../components/AboutUsDetails/AboutUsDetails";
 import Testimonial from "../components/Testimonial/Testimonial";
+import Faqs from "../components/Faqs/Faqs";
+
+
 
 function About_Us() {
   return (
-    <main className="">
+    <main className="w-full">
       <section className="about-container">
         <div
           style={{ zIndex: 3, textAlign: "center", width: "100%", padding: 20 }}
@@ -54,9 +57,10 @@ function About_Us() {
         ></div>
 
         <AboutUsDetails />
+        <Testimonial />
         
+        <Faqs />
       </section>
-      <Testimonial />
     </main>
   );
 }

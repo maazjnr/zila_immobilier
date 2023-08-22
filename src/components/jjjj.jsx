@@ -1,37 +1,4 @@
-import React from "react";
-import "./Testimonial.style.css";
-import { AiFillStar } from "react-icons/ai";
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-function Testimonial() {
-
-  
-      
-  return (
-    <main className="w-full flex flex-col justify-center">
-      <section className="text-center px-10">
-        <div
-          style={{
-            height: 0.1,
-            marginTop: 40,
-            marginBottom: 10,
-            width: "100%",
-            backgroundColor: "#F7CCAC",
-          }}
-        ></div>
-        <h1 className="font-primary font-bold text-2xl text-secondary">
-          Testimonial
-        </h1>
-        <p className="text-xs">
-          Publish the best of your client testimonials and let the world know
-          what a great agent or real estate agency you are. Testimonials build
-          trust
-        </p>
-      </section>
-
-      <section
+<section
 data-aos="zoom-out"
 className=" bg-secondaryx w-full mt-3 flex flex-wrap justify-between md:justify-between p-4 md:p-8"
 >
@@ -215,8 +182,3 @@ className=" bg-secondaryx w-full mt-3 flex flex-wrap justify-between md:justify-
   </div>
 </div>
 </section>
-    </main>
-  );
-}
-
-export default Testimonial;

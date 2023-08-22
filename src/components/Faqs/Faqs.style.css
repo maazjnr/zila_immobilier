@@ -1,0 +1,26 @@
+.App {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .faq-item {
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .faq-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .faq-answer {
+    margin-top: 0.5rem;
+  }
+  

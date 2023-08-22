@@ -7,6 +7,7 @@ import { BiSearch } from "react-icons/bi";
 import VideoBg from "../video/homevid.mp4";
 import { useNavigate } from "react-router-dom";
 import { HiUserGroup } from "react-icons/hi";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 export default function Home() {
   const navigate = useNavigate();
