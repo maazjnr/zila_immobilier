@@ -57,7 +57,7 @@ function About_Us() {
         ></div>
 
         <AboutUsDetails />
-        <Testimonial />
+        {/* <Testimonial /> */}
         
         <Faqs />
       </section>
