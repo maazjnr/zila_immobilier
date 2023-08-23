@@ -4,7 +4,6 @@ import Testimonial from "../components/Testimonial/Testimonial";
 import Faqs from "../components/Faqs/Faqs";
 
 
-
 function About_Us() {
   return (
     <main className="w-full">

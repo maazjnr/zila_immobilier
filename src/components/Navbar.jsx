@@ -7,9 +7,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
   return (
-    <header className="sticky top-0 z-50 bg-[#FEFEFE]" >
+    <header className="sticky top-0 z-100 bg-[#FEFEFE]" >
       <nav className="flex items-center justify-between w-full px-8 py-0 ">
-        <div className="z-50 flex items-center justify-between w-full md:w-auto ">
+        <div className="z-100 flex items-center justify-between w-full md:w-auto ">
           <img
             alt="logo"
             style={{
