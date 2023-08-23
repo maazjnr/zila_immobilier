@@ -13,7 +13,7 @@ function Testimonial() {
         <h1 className="font-primary font-bold text-2xl text-primary">
           Testimonial
         </h1>
-        <p className="text-xs text-[#fff]">
+        <p className="text-xs font-bold font-primary text-[#fff]">
           Publish the best of your client testimonials and let the world know
           what a great agent or real estate agency you are. Testimonials build
           trust
