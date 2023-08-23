@@ -6,43 +6,95 @@ import Faq from "react-faq-component";
 const data = {
   rows: [
     {
-      title: "Lorem ipsum dolor sit amet,",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+      title: (
+        <p style={{ textAlign: "left" }}>
+          {" "}
+          Why is it considered necessary to register Agreement for Sale?
+        </p>
+      ),
+      content: (
+        <p style={{ textAlign: "left" }}>
+          The Registration Act, 1908, the Transfer of Property Act, 1882 and the
+          Real Estate (Regulation and Development) Act, 2016 mandates the
+          registration of an agreement for sale of an immovable property. By
+          registering the agreement for sale of an immovable property, it
+          becomes a permanent public record. Further, a person is considered as
+          the legal owner of an immovable property only after he gets such
+          property registered in his name.
+        </p>
+      ),
     },
     {
-      title: "Nunc maximus, magna at ultricies elementum",
-      content:
-        "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+      title: (
+        <p style={{ textAlign: "left" }}>
+          {" "}
+          Do I need to pay stamp duty if the property is transferred or is a
+          gift?
+        </p>
+      ),
+
+      content: (
+        <p style={{ textAlign: "left" }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+        </p>
+      ),
     },
     {
-      title: "Curabitur laoreet, mauris vel blandit fringilla",
-      content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+      title: (
+        <p style={{ textAlign: "left" }}>
+          What are the documents a buyer would need from me?
+        </p>
+      ),
+      content: (
+        <p style={{ textAlign: "left" }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      ),
     },
     {
-      title: "What is the package version",
-      content: <p>current version is 1.2.1</p>,
+      title: (
+        <p style={{ textAlign: "left" }}>
+          {" "}
+          How soon would I receive a call from you after writing?
+        </p>
+      ),
+      content: (
+        <p style={{ textAlign: "left" }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      ),
     },
   ],
 };
 
 const styles = {
-  // bgColor: 'white',
-  rowTitleColor: "#826F66",
+  // bgColor: 'red',
+  titleTextColor: "#C69B7B",
+  // titleTextSize: '48px',
+  rowTitleColor: "#C69B7B",
+  // rowTitleTextSize: 'medium',
   // rowContentColor: 'grey',
-  // arrowColor: "red",
-  textAlgn: "left",
+  rowContentTextSize: "12px",
+  // rowContentPaddingTop: '10px',
+  rowContentPaddingBottom: "10px",
+  rowContentPaddingLeft: "50px",
+  // rowContentPaddingRight: '150px',
+  arrowColor: "red",
+  transitionDuration: "2s",
+  timingFunc: "ease",
+  rowTitleTextAlign: "left", // Align row titles to the left
+  rowContentTextAlign: "left", // Align inner text to the left
 };
 
 const config = {
-  // animate: true,
-  // arrowIcon: "V",
-  // tabFocus: true
+  animate: true,
+  arrowIcon: "V",
+  openOnload: 0,
+  expandIcon: "+",
+  collapseIcon: "-",
 };
 
 function Faqs() {

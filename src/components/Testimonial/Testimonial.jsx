@@ -7,13 +7,13 @@ import "aos/dist/aos.css";
 
 function Testimonial() {
   return (
-    <main className=" ">
-      <section className="text-center mb-10 px-10">
+    <main className=" bg-secondaryx ">
+      <section className="text-center mb-10 mt-10 px-10">
 
-        <h1 className="font-primary font-bold text-2xl text-secondary">
+        <h1 className="font-primary font-bold text-2xl text-primary">
           Testimonial
         </h1>
-        <p className="text-xs">
+        <p className="text-xs text-[#fff]">
           Publish the best of your client testimonials and let the world know
           what a great agent or real estate agency you are. Testimonials build
           trust
