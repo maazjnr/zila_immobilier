@@ -8,7 +8,7 @@ import { BiSolidContact } from "react-icons/bi";
 
 export default function Recommend() {
   return (
-    <div style={{ zIndex: 999 }} className="container">
+    <div style={{ zIndex: 3}} className="container">
       <section style={{ zIndex: 3 }} className="mt-0 w-full mb-2 ">
         <div className="text-center ">
           <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">

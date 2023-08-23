@@ -80,10 +80,10 @@ const styles = {
   rowContentTextSize: "12px",
   // rowContentPaddingTop: '10px',
   rowContentPaddingBottom: "10px",
-  rowContentPaddingLeft: "50px",
+  rowContentPaddingLeft: "10px",
   // rowContentPaddingRight: '150px',
   arrowColor: "red",
-  transitionDuration: "2s",
+  transitionDuration: "1s",
   timingFunc: "ease",
   rowTitleTextAlign: "left", // Align row titles to the left
   rowContentTextAlign: "left", // Align inner text to the left
