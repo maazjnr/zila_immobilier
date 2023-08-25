@@ -11,6 +11,8 @@ import Services from "./pages/Services";
 import Properties from "./pages/Properties";
 import CreateAcc from "./auth/CreateAcc";
 import Login from "./auth/Login";
+import BuyProperty from "./components/Buy/BuyProperty";
+
 
 
 const App = () => {
@@ -30,6 +32,7 @@ const App = () => {
       <Route path={'/properties'} element={<Properties />} />
       <Route path={'/create'} element={<CreateAcc/>} />
       <Route path={'/login'} element={<Login />} />
+      <Route path={'/buy'} element={<BuyProperty />} />
     </Route>
     <Route path={'*'} element={<Error />} />
   </Routes>

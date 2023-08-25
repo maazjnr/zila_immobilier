@@ -87,6 +87,7 @@ const styles = {
   timingFunc: "ease",
   rowTitleTextAlign: "left", // Align row titles to the left
   rowContentTextAlign: "left", // Align inner text to the left
+  rowTitleMarginTop: "100px",
 };
 
 const config = {

@@ -1,28 +1,18 @@
-import React from "react";
-import "./Recommend.style.css";
+import React from 'react'
+
 import { MdLocationOn } from "react-icons/md";
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { IoIosBed } from "react-icons/io";
 import { MdOutlineKitchen } from "react-icons/md";
 import { BiSolidContact } from "react-icons/bi";
+import './Buy.style.css';
 
-export default function Recommend() {
+ function BuyProperty() {
   return (
-    <div style={{ zIndex: 3}} className="container">
-      <section style={{ zIndex: 3 }} className="mt-0 w-full mb-2 ">
-        <div className="text-center ">
-          <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
-            Recommendation
-          </h3>
-
-          <h1 className="text-xs text-center font-normal px-5 text-primary">
-            We recommend the best price, location and a safe environment for you
-          </h1>
-        </div>
-      </section>
-
+    <main className=' buy-container'>
       <section className="flex flex-wrap justify-evenly">
-        <div className="card">
+
+        <div style={{zIndex: 3}} className="card">
           <div className="w-full p-3">
             <div className="image-card">
               <img className="img" src={require("../../images/house1.jpg")} />
@@ -130,7 +120,7 @@ export default function Recommend() {
           </div>
         </div>
 
-        <div className="card">
+        <div style={{zIndex: 3}}  className="card">
           <div className="w-full p-3">
             <div className="image-card">
               <img className="img" src={require("../../images/house3.jpg")} />
@@ -144,7 +134,7 @@ export default function Recommend() {
                 >
                   $2,620
                   <span className="text-[#fff] ml-1 font-primary text-xs font-medium">
-                    /month
+                    /for sale
                   </span>
                 </h1>
 
@@ -238,7 +228,7 @@ export default function Recommend() {
           </div>
         </div>
 
-        <div className="card">
+        <div style={{zIndex: 3}}  className="card">
           <div className="w-full p-3">
             <div className="image-card">
               <img className="img" src={require("../../images/house2.jpg")} />
@@ -252,7 +242,7 @@ export default function Recommend() {
                 >
                   $3,080
                   <span className="text-[#fff] ml-1 font-primary text-xs font-medium">
-                    /6 weeks
+                    /for sale
                   </span>
                 </h1>
 
@@ -346,7 +336,7 @@ export default function Recommend() {
           </div>
         </div>
 
-        <div className="card">
+        <div style={{zIndex: 3}}  className="card">
           <div className="w-full p-3">
             <div className="image-card">
               <img className="img" src={require("../../images/house4.jpg")} />
@@ -454,7 +444,7 @@ export default function Recommend() {
           </div>
         </div>
 
-        <div className="card">
+        <div style={{zIndex: 3}}  className="card">
           <div className="w-full p-3">
             <div className="image-card">
               <img className="img" src={require("../../images/house6.jpg")} />
@@ -562,7 +552,7 @@ export default function Recommend() {
           </div>
         </div>
 
-        <div className="card">
+        <div style={{zIndex: 3}}  className="card">
           <div className="w-full p-3">
             <div className="image-card">
               <img className="img" src={require("../../images/house5.jpg")} />
@@ -576,7 +566,7 @@ export default function Recommend() {
                 >
                   $1,002
                   <span className="text-[#fff] ml-1 font-primary text-xs font-medium">
-                    /2 weeks
+                    /for sale
                   </span>
                 </h1>
 
@@ -670,68 +660,8 @@ export default function Recommend() {
           </div>
         </div>
       </section>
-
-      <section style={{ zIndex: 3 }} className="mt-10 w-full mb-1 px-5 ">
-        <div className="">
-          <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
-            WHY NEXTMOVEE ?
-          </h3>
-
-          <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
-            Navigating the complex real estate landscape can be a daunting task,
-            but with Nextmovee by your side, the journey becomes effortless and
-            exciting. Our commitment to excellence means that every step of your
-            property journey is meticulously curated to match your preferences,
-            needs, and aspirations.
-          </p>
-
-          <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
-            At Nextmovee, we understand that a home is more than just bricks and
-            mortar; it's where your life story unfolds. Our cutting-edge
-            technology empowers you to explore a diverse range of properties,
-            ensuring that you're presented with options that resonate with your
-            unique vision. Whether you're a first-time buyer, a seasoned
-            investor, or someone looking to find a temporary haven, we have the
-            solutions tailored to you.
-          </p>
-
-          <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
-            What sets us apart is our personalized approach. We believe that
-            each individual's dream is distinct, and that's why our dedicated
-            team of experts works closely with you to transform your vision into
-            reality. From matching you with the right property to negotiating
-            the best deals and guiding you through the intricate legal
-            processes, we're your trusted partners at every stage.
-          </p>
-
-          <p className="text-md pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
-            So, if you're seeking to embark on a journey towards your dream
-            home, let Nextmovee be your guide. Unveil a world of possibilities
-            as we redefine the way you buy, sell, and rent properties. Your
-            dream home is within reach, and we're here to make it a reality.
-            Join us on this exciting venture and let's turn your dreams into
-            addresses.
-          </p>
-
-          <div className="mt-7">
-            <button
-              className="bg-[#3a3845] hover:bg-[#F7CCAd] flex flex-row items-center justify-center focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
-              onClick={() => navigate("/about")}
-            >
-                <BiSolidContact size={13} color={'#fff'} />
-              <p
-                style={{ fontWeight: 700, fontSize: 13 }}
-                className="text-[#fff] ml-1 font-primary leading-none"
-              >
-               Contact us
-              </p>
-            
-            </button>
-
-            
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+    </main>
+  )
 }
+
+export default BuyProperty;
