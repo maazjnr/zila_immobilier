@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { MdLocationOn } from "react-icons/md";
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { IoIosBed } from "react-icons/io";
