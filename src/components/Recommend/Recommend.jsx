@@ -21,7 +21,7 @@ export default function Recommend() {
         </div>
       </section>
 
-      <section className="flex flex-wrap justify-evenly">
+      <section className="flex flex-wrap p-10 justify-evenly">
         <div className="card">
           <div className="w-full p-3">
             <div className="image-card">
