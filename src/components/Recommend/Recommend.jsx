@@ -22,6 +22,7 @@ export default function Recommend() {
       </section>
 
       <section className="flex flex-wrap justify-evenly">
+        
         <div className="card">
           <div className="w-full p-3">
             <div className="image-card">
@@ -47,12 +48,12 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx pt-2 font-primary font-normal "
               >
                 Monochrome House
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs ">
                   2699 Green valley, Highlight Lake, FL
@@ -155,12 +156,12 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx pt-2 font-primary font-normal  "
               >
                 Faulkner Ave
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs text-poppins">
                   2699 Green valley, Highlight Lake, FL
@@ -263,12 +264,12 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx pt-2 font-primary font-normal  "
               >
                 Beverly Springfield
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 text-xs font-primary text-poppins">
                   2821 Lake, Sevilla, Palm Harbor, TX
@@ -371,12 +372,12 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx pt-2 font-primary font-normal  "
               >
                 The Old Steele
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 text-xs font-primary text-poppins">
                   103 Lake Shores, Michiang, IN
@@ -484,7 +485,7 @@ export default function Recommend() {
                 Curvy Black lite
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs text-poppins">
                   243 Crew Low road, International road
@@ -587,12 +588,12 @@ export default function Recommend() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx pt-2 font-primary font-normal  "
               >
                 Flat Rich Style
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs ">
                   Birmingham line 2033, Globe Itl

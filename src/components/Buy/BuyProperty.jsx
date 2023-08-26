@@ -43,12 +43,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Monochrome House
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs ">
                   2699 Green valley, Highlight Lake, FL
@@ -151,12 +151,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Faulkner Ave
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs text-poppins">
                   2699 Green valley, Highlight Lake, FL
@@ -259,12 +259,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Beverly Springfield
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 text-xs font-primary text-poppins">
                   2821 Lake, Sevilla, Palm Harbor, TX
@@ -367,12 +367,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 The Old Steele
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 text-xs font-primary text-poppins">
                   103 Lake Shores, Michiang, IN
@@ -480,7 +480,7 @@ function BuyProperty() {
                 Curvy Black lite
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs text-poppins">
                   243 Crew Low road, International road
@@ -583,12 +583,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Flat Rich Style
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs ">
                   Birmingham line 2033, Globe Itl
@@ -691,12 +691,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Monochrome House
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs ">
                   2699 Green valley, Highlight Lake, FL
@@ -799,12 +799,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Faulkner Ave
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs text-poppins">
                   2699 Green valley, Highlight Lake, FL
@@ -907,12 +907,12 @@ function BuyProperty() {
 
               <h1
                 style={{ fontSize: 20 }}
-                className="text-secondaryx font-primary font-normal "
+                className="text-secondaryx font-primary pt-2 font-normal "
               >
                 Flat Rich Style
               </h1>
 
-              <div className="flex flex-row mt-1 items-center">
+              <div className="flex flex-row mt-0 items-center">
                 <MdLocationOn />
                 <p className=" ml-1 font-primary text-xs ">
                   Birmingham line 2033, Globe Itl
