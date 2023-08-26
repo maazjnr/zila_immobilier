@@ -1,4 +1,3 @@
-/* Add this CSS in your stylesheet */
 .card {
   width: 350px;
   height: 410px;
@@ -26,4 +25,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.container {
+  padding: 20px;
 }
