@@ -671,7 +671,7 @@ export default function Recommend() {
         </div>
       </section>
 
-      <section style={{ zIndex: 3 }} className="mt-10 w-full mb-1 px-5 ">
+      <section style={{ zIndex: 3 }} className="mt-10 w-full mb-1 px-0 ">
         <div className="">
           <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
             WHY NEXTMOVEE ?
