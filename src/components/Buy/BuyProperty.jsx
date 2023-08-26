@@ -25,7 +25,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold "
@@ -133,7 +133,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -241,7 +241,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -349,7 +349,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -457,7 +457,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx font-bold "
@@ -565,7 +565,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -673,7 +673,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold "
@@ -781,7 +781,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -889,7 +889,7 @@ import "aos/dist/aos.css";
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"

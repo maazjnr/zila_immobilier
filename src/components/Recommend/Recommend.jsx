@@ -21,7 +21,7 @@ export default function Recommend() {
         </div>
       </section>
 
-      <section className="flex flex-wrap p-10 justify-evenly">
+      <section className="flex flex-wrap justify-evenly">
         <div className="card">
           <div className="w-full p-3">
             <div className="image-card">
@@ -29,7 +29,7 @@ export default function Recommend() {
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold "
@@ -137,7 +137,7 @@ export default function Recommend() {
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -245,7 +245,7 @@ export default function Recommend() {
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -353,7 +353,7 @@ export default function Recommend() {
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
@@ -461,7 +461,7 @@ export default function Recommend() {
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx font-bold "
@@ -569,7 +569,7 @@ export default function Recommend() {
             </div>
 
             <div style={{ marginTop: 15 }}>
-              <div className="flex flex-row bg-primary justify-between items-center mb-3 pb-3 border border-solid border-secondary rounded p-2 ">
+              <div className="flex flex-row bg-primary justify-between items-center  rounded p-2">
                 <h1
                   style={{ fontSize: 20 }}
                   className="text-primary text-secondaryx  font-primary font-bold"
