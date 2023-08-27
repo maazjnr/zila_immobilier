@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
       <div style={{ zIndex: 3 }} className="py-10">
         <h1 className="font-primary text-2xl text-center text-primary font-normal">
           {" "}
-          Discover Most Suitable Properties for Sale{" "}
+          Discover Most Suitable Properties for Rent{" "}
         </h1>
       </div>
 
