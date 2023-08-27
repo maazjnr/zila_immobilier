@@ -11,9 +11,8 @@ import Services from "./pages/Services";
 import Properties from "./pages/Properties";
 import CreateAcc from "./auth/CreateAcc";
 import Login from "./auth/Login";
-import BuyProperty from "./components/Buy/BuyProperty";
-import RentProperty from "./components/Rent/RentProperty";
-
+import BuyProperty from "./components/Buy/BuyProperty"
+import RentProperty from "./components/Rent/RentProperty"
 
 
 const App = () => {

@@ -14,7 +14,7 @@ function About_Us() {
         >
           <h1 className="about-title">More About us</h1>
           <h1 className="text-xs text-center text-sm text-[#fff]">
-            We help clients buy and sell houses since 2019
+            We help Clients Invest in Properties Since 2019
           </h1>
           <div
             style={{
@@ -26,9 +26,9 @@ function About_Us() {
             }}
           ></div>
           <p className="px-3 text-[#fff] text-xs font-hairline text-secondary text-center ">
-            With over $ Billion in sales, due to our great results, expertise
+            With over Million in sales, due to our great results, expertise
             and dedication, we rank amongst the best globally in property sales
-            business. Our agency is the industry are among the best.
+            business. Our agency in the industry are among the best.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ function About_Us() {
             More about our Company
           </h1>
           <p className="text-sm  text-secondaryx leading-[1.8] text-left text-justify px-2 ">
-            Where Vision Meets Home: Crafting Your Perfect Space with Expertise
+            Where Vision Meets Home Crafting Your Perfect Space with Expertise
             and Care. Discover the Pinnacle of Real Estate Excellence, Tailored
             to Your Aspirations and Lifestyle.
           </p>
