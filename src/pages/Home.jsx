@@ -10,7 +10,7 @@ import { HiUserGroup } from "react-icons/hi";
 import Testimonial from "../components/Testimonial/Testimonial";
 
 export default function Home() {
- const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   return (
     <main className="flex flex-col items-center ">
@@ -39,7 +39,8 @@ export default function Home() {
             style={{ zIndex: 3 }}
             className="mt-4  flex flex-wrap justify-evenly "
           >
-            <button onClick={() => navigate("/buy")}
+            <button
+              onClick={() => navigate("/buy")}
               className="home-btn "
               style={{
                 backgroundColor: "#C69B7B",
@@ -83,6 +84,7 @@ export default function Home() {
               </p>
             </button>
             <button
+              onClick={() => navigate("/rent")}
               className="home-btn "
               style={{
                 backgroundColor: "#C69B7B",
