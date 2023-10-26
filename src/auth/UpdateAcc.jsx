@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const CreateAcc = () => {
+const UpdateAcc = () => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
@@ -40,6 +40,8 @@ const CreateAcc = () => {
     // Handle form submission here, you can send the formData to your server or perform other actions
     console.log(formData);
   };
+
+ 
 
   const countryOptions = [
     "Select your country",
@@ -241,9 +243,10 @@ const CreateAcc = () => {
   ];
 
   return (
-    <div className="min-h-screen md:p-20 flex flex-col bg-white md:flex-row bg-gray-100 py-10">
-      <div className="bg-white p-8 rounded-lg shadow-md flex flex-col md:w-1/2">
-        <h2 className="text-2xl font-semibold mb-4">Create an Account</h2>
+   <main className="bg-white">
+     <div className="min-h-screen md:p-20 flex flex-col bg-white md:flex-row py-10">
+      <div className="bg-white p-8 rounded-lg shadow-md  flex flex-col md:w-1/2">
+        <h2 className="text-1xl text-primary font-semibold mb-4 text-center">Update your Account Details</h2>
 
         <h1 className="p-5 my-3 bg-primary text-secondaryx rounded">
           Your Personal Information
@@ -336,21 +339,16 @@ const CreateAcc = () => {
               placeholder="Retype Password"
             />
           </div>
-
+      
           <button
-            onClick={() => navigate("/userDashboard")}
+            onClick={() => navigate("/userDashboard" )}
             type="submit"
-            className="w-full bg-primary text-[#fff] py-2 uppercase font-normal rounded-md hover:bg-secondary focus:outline-none focus:ring focus:secondary"
+            className="w-full bg-secondary text-primary py-2 uppercase font-normal rounded-md hover:bg-secondary focus:outline-none focus:ring focus:secondary"
           >
-            Sign Up
+            Update
           </button>
         </form>
-        <p className="mt-4 text-center text-sm text-gray-600">
-          Already have an account?{" "}
-          <a href="/login" className="text-blue-500 hover:underline">
-            Log in
-          </a>
-        </p>
+
       </div>
       <div
         className="md:w-1/2 bg-cover bg-center h-screen md:h-auto overflow-hidden md:flex-shrink-0"
@@ -361,7 +359,8 @@ const CreateAcc = () => {
         <div className="bg-black bg-opacity-40 h-full w-full"></div>
       </div>
     </div>
+   </main>
   );
 };
 
-export default CreateAcc;
+export default UpdateAcc ;

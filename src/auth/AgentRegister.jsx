@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const CreateAcc = () => {
+const AgentRegister= () => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
@@ -40,6 +40,8 @@ const CreateAcc = () => {
     // Handle form submission here, you can send the formData to your server or perform other actions
     console.log(formData);
   };
+
+ 
 
   const countryOptions = [
     "Select your country",
@@ -337,17 +339,78 @@ const CreateAcc = () => {
             />
           </div>
 
+
+
+          <h1 className="p-5 my-3 bg-primary text-secondaryx rounded">
+          Your Social Platforms
+        </h1>
+
+
+        <div className="mb-6">
+            <input
+              type="phone"
+              id="phone"
+              name="phone"
+              value={formData.retypePassword}
+              onChange={handleChange}
+              className="py-2 pl-4 pr-12 focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              placeholder="Business phone number"
+            />
+          </div>
+
+          <div className="mb-6">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.password}
+              onChange={handleChange}
+              className="py-2 pl-4 pr-12 focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div className="mb-6">
+            <input
+              type="instagram"
+              id="instagram"
+              name="text"
+              value={formData.email}
+              onChange={handleChange}
+              className="py-2 pl-4 pr-12 focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              placeholder="Enter your instagram username"
+            />
+          </div>
+
+          <div className="mb-6">
+            <input
+              type="instagram"
+              id="instagram"
+              name="text"
+              value={formData.email}
+              onChange={handleChange}
+              className="py-2 pl-4 pr-12 focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              placeholder="Enter your instagram url link here"
+            />
+          </div>
+
+
+          
+
+
+          
+      
           <button
-            onClick={() => navigate("/userDashboard")}
+            onClick={() => navigate("/dashboard")}
             type="submit"
-            className="w-full bg-primary text-[#fff] py-2 uppercase font-normal rounded-md hover:bg-secondary focus:outline-none focus:ring focus:secondary"
+            className=" bg-primary text-[#fff] py-5 my-5 text-secondaryx animate-bounce uppercase text-xs  px-10 rounded hover:bg-secondary focus:outline-none focus:ring focus:secondary"
           >
-            Sign Up
+            Create Account
           </button>
         </form>
         <p className="mt-4 text-center text-sm text-gray-600">
           Already have an account?{" "}
-          <a href="/login" className="text-blue-500 hover:underline">
+          <a href="/agentLogin" className="text-blue-500 hover:underline">
             Log in
           </a>
         </p>
@@ -364,4 +427,4 @@ const CreateAcc = () => {
   );
 };
 
-export default CreateAcc;
+export default AgentRegister ;

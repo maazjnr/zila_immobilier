@@ -22,11 +22,11 @@ function Testimonial() {
 
       <section
         data-aos="zoom-in"
-        className="flex py-10 flex-wrap bg-secondaryx justify-evenly"
+        className="flex py-10 flex-wrap bg-secondaryx justify-between"
       >
         <div
           data-aos="zoom-in"
-          className="user w-full md:w-1/6 mb-4 md:mb-0 flex flex-col"
+          className="user w-full md:w-1/2 mb-4 md:mb-0 flex flex-col"
         >
           <div className="flex flex-row items-center">
             <img className="user-img" src={require("../../images/user1.jpg")} />
@@ -56,7 +56,7 @@ function Testimonial() {
 
         <div
           data-aos="zoom-in"
-          className="user w-full md:w-1/6 mb-4 md:mb-0 flex flex-col"
+          className="user w-full md:w-1/2 mb-4 md:mb-0 flex flex-col"
         >
           <div className="flex flex-row items-center">
             <img className="user-img" src={require("../../images/user2.jpg")} />
@@ -86,7 +86,7 @@ function Testimonial() {
 
         <div
           data-aos="zoom-in"
-          className="user w-full md:w-1/6 mb-4 md:mb-0 flex flex-col"
+          className="user w-full md:w-1/2 mb-4 md:mb-0 flex flex-col"
         >
           <div className="flex flex-row items-center">
             <img className="user-img" src={require("../../images/user3.jpg")} />
@@ -116,7 +116,7 @@ function Testimonial() {
 
         <div
           data-aos="zoom-in"
-          className="user w-full md:w-1/6 mb-4 md:mb-0 flex flex-col"
+          className="user w-full md:w-1/2 mb-4 md:mb-0 flex flex-col"
         >
           <div className="flex flex-row items-center">
             <img className="user-img" src={require("../../images/user5.jpg")} />
@@ -146,7 +146,7 @@ function Testimonial() {
 
         <div
           data-aos="zoom-in"
-          className="user w-full md:w-1/6 mb-4 md:mb-0 flex flex-col"
+          className="user w-full md:w-1/2 mb-4 md:mb-0 flex flex-col"
         >
           <div className="flex flex-row items-center">
             <img className="user-img" src={require("../../images/user4.jpg")} />
@@ -176,7 +176,7 @@ function Testimonial() {
 
         <div
           data-aos="zoom-in"
-          className="user w-full md:w-1/6 mb-4 md:mb-0 flex flex-col"
+          className="user w-full md:w-1/2 mb-4 md:mb-0 flex flex-col"
         >
           <div className="flex flex-row items-center">
             <img className="user-img" src={require("../../images/user6.jpg")} />

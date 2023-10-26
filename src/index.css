@@ -107,13 +107,61 @@ video {
 
 
 
+/* OUR SERVICE STYLING */
+.service-container {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-image: url('./images/house1.jpg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.service-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 31, 44, 0.895);
+}
+.image-filter {
+  filter: grayscale(100%) sepia(10%) hue-rotate(0deg) saturate(1000%) brightness(0.8);
+  border-radius: 50px;
+  height: 500px;
+}
 
 
 
+/* PROPERTIES STYLING */
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.blurImg {
+ background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvcGVydHl8ZW58MHx8MHx8fDA%3D&w=1000&q=80');/* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  filter: blur(100px); /* Adjust the blur intensity as needed */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
 
-
-
+.animate-roll {
+  animation: roll 2s infinite linear; /* Adjust the animation duration as needed */
+}
 
 
 

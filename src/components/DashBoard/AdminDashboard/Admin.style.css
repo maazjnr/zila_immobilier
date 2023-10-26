@@ -1,0 +1,6 @@
+.requestBtn {
+    box-shadow: -1px 0px 12px 0px rgba(0, 0, 0, 0.03);
+    -webkit-box-shadow: -1px 0px 12px 0px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: -1px 0px 12px 0px rgba(0, 0, 0, 0.03);
+    border: 0.1px solid rgba(128, 128, 128, 0.304);
+}

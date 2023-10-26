@@ -30,7 +30,7 @@ function About_Us() {
             and dedication, we rank amongst the best globally in property sales
             business. Our agency in the industry are among the best.
           </p>
-        </div>
+        </div> 
       </section>
 
       <section className="about-our-container mt-10 text-center">

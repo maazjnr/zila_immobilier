@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../images/logo.svg";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { BiSolidUser} from "react-icons/bi";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -35,19 +36,30 @@ const Navbar = () => {
             to={"/"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
-                : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+                : { color: "#3A3845", fontWeight: "500", fontSize: 10 }
             }
           >
             HOME
           </NavLink>
 
           <NavLink
+            to={"/agents"}
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+                : { color: "#3A3845", fontWeight: "500", fontSize: 10 }
+            }
+          >
+            AGENTS
+          </NavLink>
+
+          <NavLink
             to={"/services"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
-                : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+                : { color: "#3A3845", fontWeight: "500", fontSize: 10 }
             }
           >
             SERVICES
@@ -57,8 +69,8 @@ const Navbar = () => {
             to={"/properties"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
-                : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+                : { color: "#3A3845", fontWeight: "500", fontSize: 10 }
             }
           >
             PROPERTIES
@@ -68,24 +80,31 @@ const Navbar = () => {
             to={"/about"}
             style={({ isActive }) =>
               isActive
-                ? { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
-                : { color: "#3A3845", fontWeight: "600", fontSize: 12 }
+                ? { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+                : { color: "#3A3845", fontWeight: "500", fontSize: 10 }
             }
           >
             ABOUT US
           </NavLink>
+
+          
+          <NavLink
+            to={"/adminDashboard"}
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+                : { color: "#3A3845", fontWeight: "500", fontSize: 10 }
+            }
+          >
+            ADMIN DASHBOARD
+          </NavLink>
+
+
         </div>
         <div className="hidden md:inline-block">
-          <button
-            className="bg-[#3A3845] hover:bg-[#C69B7B] focus:bg-[#826F66] active:bg-[#826F66] transition-colors 
-            duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-4 py-3 rounded"
-            onClick={() => navigate("/create")}
-          >
-            <p
-              style={{ fontWeight: 700, fontSize: 12 }}
-              className="text-[#FFF] leading-none"
-            >
-             Create an account
+        <button className="bg-primary rounded ml-2 " onClick={() => navigate("/login")}>
+            <p className="text-secondaryx text-xs p-3 px-5  font-primary">
+              <BiSolidUser />
             </p>
           </button>
         </div>
@@ -121,12 +140,24 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
+            to={"/agents"}
+            reloadDocument
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#Fff", fontWeight: "500", fontSize: 10}
+                : { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+            }
+          >
+            AGENTS
+          </NavLink>
+
+          <NavLink
             to={"/services"}
             reloadDocument
             style={({ isActive }) =>
               isActive
-                ? { color: "#Fff", fontWeight: "600", fontSize: 12 }
-                : { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
+                ? { color: "#Fff", fontWeight: "500", fontSize: 10}
+                : { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
             }
           >
             SERVICES
@@ -148,25 +179,31 @@ const Navbar = () => {
             reloadDocument
             style={({ isActive }) =>
               isActive
-                ? { color: "#Fff", fontWeight: "600", fontSize: 12 }
-                : { color: "#C69B7B", fontWeight: "600", fontSize: 12 }
+                ? { color: "#Fff", fontWeight: "500", fontSize: 10}
+                : { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
             }
           >
             ABOUT US
           </NavLink>
 
+          <NavLink
+            to={"/adminDashboard"}
+            reloadDocument
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#Fff", fontWeight: "500", fontSize: 10}
+                : { color: "#C69B7B", fontWeight: "500", fontSize: 10 }
+            }
+          >
+            ADMIN DASHBOARD
+          </NavLink>
+
           <div className="">
-            <button
-              className="bg-[#C69B7B] hover:bg-[#F7CCAd] focus:bg-[#C69B7B] active:bg-[#C69B7B] transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none px-6 py-3 rounded"
-              onClick={() => navigate("/create")}
-            >
-              <p
-                style={{ fontWeight: 700, fontSize: 12 }}
-                className="text-[#3a3845] leading-none"
-              >
-               Create an account
-              </p>
-            </button>
+          <button className="bg-secondaryx rounded " onClick={() => navigate("/login")}>
+            <p className="text-primary text-xs p-3 px-7  font-primary">
+              <BiSolidUser />
+            </p>
+          </button>
           </div>
         </div>
       </nav>

@@ -1,0 +1,111 @@
+.userDashboard-container {
+    position: relative;
+    width: 100%;
+    background-image: url('../../../images/house-purchase-1019764.jpg');
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+  }
+  
+  .userDashboard-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.785);
+  }
+
+
+  .overlay-container1 {
+    position: relative;
+    width: 300px;
+    height: 200px; /* Adjust the height as needed */
+    background: url('../../../images/property-7046997_1280.jpg') center/cover no-repeat; 
+    border-radius: 10px;
+}
+
+.overlay-container1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity (RGBA values) */
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.overlay-container1:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+
+.overlay-container1:hover::after {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the overlay color on hover */
+}
+
+
+
+.overlay-container2 {
+    position: relative;
+    width: 300px;
+    height: 200px; /* Adjust the height as needed */
+    background: url('../../../images/join\ us.png') center/cover no-repeat; 
+    border-radius: 10px;
+}
+
+.overlay-container2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity (RGBA values) */
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.overlay-container2:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+
+.overlay-container2:hover::after {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the overlay color on hover */
+}
+
+
+
+.overlay-container3 {
+    position: relative;
+    width: 300px;
+    height: 200px; /* Adjust the height as needed */
+    background: url('../../../images/keys-1317389_640.jpg') center/cover no-repeat; 
+    border-radius: 10px;
+}
+
+.overlay-container3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity (RGBA values) */
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.overlay-container3:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+
+.overlay-container3:hover::after {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the overlay color on hover */
+}

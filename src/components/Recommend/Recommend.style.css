@@ -2,7 +2,7 @@
   width: 350px;
   height: 410px;
   background-color: rgba(236, 230, 230, 0.61);
-  border-radius: 6px;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .img {
-  border-radius: 6px;
+  border-radius: 30px;
   position: absolute;
   top: 0;
   left: 0;
