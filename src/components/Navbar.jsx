@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import logo from "../images/logo.svg"
 import { NavLink, useNavigate } from "react-router-dom";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 import { BiSolidUser} from "react-icons/bi";
 import { MdSell } from "react-icons/md";
 
