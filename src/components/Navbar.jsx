@@ -42,7 +42,7 @@ const Navbar = () => {
                       >
                         <MdSell size={12} color={"#3A3845"} />
                         <p className="ml-1 text-xs  text-[#fff] font-primary">
-                         Zima Immobilier
+                         Zima L’immobilier
                         </p>
                       </button>
           <div className="md:hidden" onClick={() => setOpen((open) => !open)}>

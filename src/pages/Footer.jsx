@@ -9,7 +9,7 @@ function Footer() {
           className="text-secondary tracking-wider font-primary 
         text-md font-normal"
         >
-          Zima Immobilier
+          Zima L’immobilier
         </h1>
 
         <div className="flex flex-col py-3">

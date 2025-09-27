@@ -33,7 +33,7 @@ export default function Home() {
               style={{ lineHeight: 1.5 }}
             >
               Buy, Sell and Rent Properties with
-              <span className="text-[#ffffff] font-primary"> Zima Immobilier</span>.
+              <span className="text-[#ffffff] font-primary"> Zima L’immobilier</span>.
             </h1>
 
             <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
