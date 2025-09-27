@@ -16,7 +16,7 @@ function Agents() {
           <h1 className="text-primaryx"> Agents</h1>
         </section>
         <h1 className="font-hairline text-3xl text-center py-3 text-primaryx">
-          Nextmovee Property Agent
+         Zima L’immobilier Property Agent
         </h1>
       </div>
 

@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar"; // Make sure to adjust the path to your Navbar component
+import Navbar from "../components/Navbar"; 
 import Recommend from "../components/Recommend/Recommend";
 import { MdSell } from "react-icons/md";
 import { FaBookmark } from "react-icons/fa";
@@ -193,7 +193,7 @@ export default function Home() {
               style={{ fontWeight: 700, fontSize: 13 }}
               className="text-[#3a3845] ml-1 font-primary leading-none"
             >
-              More about Zila Immobilier
+              More about Zima L’immobilier
             </p>
           </button>
         </div>

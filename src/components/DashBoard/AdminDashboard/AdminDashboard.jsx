@@ -23,7 +23,7 @@ function AdminDashboard() {
 
             <div>
               <h4 className="text-uppercase font-hairline">Benjamin White</h4>
-              <h4 className="font-normal text-xs text-left">Bumba's Home</h4>
+              <h4 className="font-normal text-xs text-left">Kingston Lane</h4>
               <p className="text-[10px] py-1 text-[#f00] text-left">10/29/2023</p>
             </div>
           </div>

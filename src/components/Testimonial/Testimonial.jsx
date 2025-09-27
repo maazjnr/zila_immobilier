@@ -41,7 +41,7 @@ function Testimonial() {
           <div className="mt-4 text-left">
             <p className="text-xs px-5 mt-6">
               I reviewed and purchased a number of different Properties before
-              settling on Nextmovee.
+              settling on Zima L’immobilier.
             </p>
 
             <div className="mt-7 ml-4 flex flex-row items-center">
@@ -70,7 +70,7 @@ function Testimonial() {
 
           <div className="mt-4 text-left">
             <p className="text-xs px-5 mt-6">
-              The Nextmovee Estate team did an outstanding job helping me buy an
+              The Zima L’immobilier Estate team did an outstanding job helping me buy an
               amazing property.
             </p>
 
@@ -100,7 +100,7 @@ function Testimonial() {
 
           <div className="mt-4 text-left">
             <p className="text-xs px-5 mt-6">
-              The Nextmovee Estate team did an outstanding job helping me buy an
+              The Zima L’immobilier Estate team did an outstanding job helping me buy an
               amazing property.
             </p>
 
@@ -130,7 +130,7 @@ function Testimonial() {
 
           <div className="mt-4 text-left">
             <p className="text-xs px-5 mt-6">
-              The Nextmovee Estate team did an outstanding job helping me buy an
+              The Zima L’immobilier Estate team did an outstanding job helping me buy an
               amazing property.
             </p>
 
@@ -160,7 +160,7 @@ function Testimonial() {
 
           <div className="mt-4 text-left">
             <p className="text-xs px-5 mt-6">
-              The Nextmovee Estate team did an outstanding job helping me buy an
+              The Zima L’immobilier Estate team did an outstanding job helping me buy an
               amazing property.
             </p>
 
@@ -190,7 +190,7 @@ function Testimonial() {
 
           <div className="mt-4 text-left">
             <p className="text-xs px-5 mt-6">
-              The Nextmovee Estate team did an outstanding job helping me buy an
+              The Zima L’immobilier Estate team did an outstanding job helping me buy an
               amazing property.
             </p>
 
