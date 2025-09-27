@@ -178,7 +178,7 @@ export default function Home() {
             Find Your Next Home Anywhere Around the Globe
           </h1>
           <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
-            Through our proprietary platform, Zila Immobilier is changing how agents
+            Through our proprietary platform, Zima L’immobiliermobilier is changing how agents
             and clients navigate the process of finding or selling a home.
           </p>
         </section>
@@ -240,19 +240,19 @@ export default function Home() {
       <section style={{ zIndex: 3 }} className="mt-10 w-full mb-1 p-8 ">
         <div className="">
           <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
-            WHY Zila Immobilier ?
+            WHY Zima L’immobilier ?
           </h3>
 
           <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             Navigating the complex real estate landscape can be a daunting task,
-            but with Zila Immobilier by your side, the journey becomes effortless and
+            but with Zima L’immobilier by your side, the journey becomes effortless and
             exciting. Our commitment to excellence means that every step of your
             property journey is meticulously curated to match your preferences,
             needs, and aspirations.
           </p>
 
           <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
-            At Zila Immobilier, we understand that a home is more than just bricks and
+            At Zima L’immobilier, we understand that a home is more than just bricks and
             mortar; it's where your life story unfolds. Our cutting-edge
             technology empowers you to explore a diverse range of properties,
             ensuring that you're presented with options that resonate with your
@@ -272,7 +272,7 @@ export default function Home() {
 
           <p className="text-md pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             So, if you're seeking to embark on a journey towards your dream
-            home, let Zila Immobilier be your guide. Unveil a world of possibilities
+            home, let Zima L’immobiliermobilier be your guide. Unveil a world of possibilities
             as we redefine the way you buy, sell, and rent properties. Your
             dream home is within reach, and we're here to make it a reality.
             Join us on this exciting venture and let's turn your dreams into
