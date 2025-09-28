@@ -33,7 +33,7 @@ export default function Home() {
               style={{ lineHeight: 1.5 }}
             >
               Buy, Sell and Rent Properties with
-              <span className="text-[#ffffff] font-primary"> Nextmovee</span>.
+              <span className="text-[#ffffff] font-primary"> Zima Immobilier</span>.
             </h1>
 
             <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
@@ -178,7 +178,7 @@ export default function Home() {
             Find Your Next Home Anywhere Around the Globe
           </h1>
           <p className="py-1 px-3 text-[#fff] text-xs font-hairline text-center ">
-            Through our proprietary platform, Nextmovee is changing how agents
+            Through our proprietary platform, Zila Immobilier is changing how agents
             and clients navigate the process of finding or selling a home.
           </p>
         </section>
@@ -193,7 +193,7 @@ export default function Home() {
               style={{ fontWeight: 700, fontSize: 13 }}
               className="text-[#3a3845] ml-1 font-primary leading-none"
             >
-              More about nextmovee
+              More about Zila Immobilier
             </p>
           </button>
         </div>
@@ -240,19 +240,19 @@ export default function Home() {
       <section style={{ zIndex: 3 }} className="mt-10 w-full mb-1 p-8 ">
         <div className="">
           <h3 className="text-center font-bold mb-0 font-primary text-secondaryx bg-gray-200 p-2">
-            WHY NEXTMOVEE ?
+            WHY Zila Immobilier ?
           </h3>
 
           <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             Navigating the complex real estate landscape can be a daunting task,
-            but with Nextmovee by your side, the journey becomes effortless and
+            but with Zila Immobilier by your side, the journey becomes effortless and
             exciting. Our commitment to excellence means that every step of your
             property journey is meticulously curated to match your preferences,
             needs, and aspirations.
           </p>
 
           <p className="text-sm pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
-            At Nextmovee, we understand that a home is more than just bricks and
+            At Zila Immobilier, we understand that a home is more than just bricks and
             mortar; it's where your life story unfolds. Our cutting-edge
             technology empowers you to explore a diverse range of properties,
             ensuring that you're presented with options that resonate with your
@@ -272,7 +272,7 @@ export default function Home() {
 
           <p className="text-md pt-3 leading-[1.8] text-left text-justify px-2 text-primary">
             So, if you're seeking to embark on a journey towards your dream
-            home, let Nextmovee be your guide. Unveil a world of possibilities
+            home, let Zila Immobilier be your guide. Unveil a world of possibilities
             as we redefine the way you buy, sell, and rent properties. Your
             dream home is within reach, and we're here to make it a reality.
             Join us on this exciting venture and let's turn your dreams into

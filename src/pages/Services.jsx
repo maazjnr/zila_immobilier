@@ -13,7 +13,7 @@ export default function Services() {
           className=""
         >
           <h1 className="text-xs text-[#fff] "> Welcome to</h1>
-          <h1 className="about-title">Nextmovee</h1>
+          <h1 className="about-title">Zima Immobilier</h1>
           <h1 className="text-xs text-center text-sm text-[#fff]">
             Your trusted partner in the world of Property Business.
           </h1>
@@ -27,7 +27,7 @@ export default function Services() {
             }}
           ></div>
           <p className="px-3 text-[#fff] text-xs font-hairline text-secondary text-center ">
-            We provide a comprehensive range of property services tailored to
+            At Zima Immobilier, we provide a comprehensive range of property services tailored to
             meet your unique needs. Whether you are buying, selling, renting, or
             investing, our dedicated team of experts is here to assist you every
             step of the way. With a commitment to professionalism, integrity,
@@ -242,8 +242,8 @@ export default function Services() {
               10 Years of Experience in Real Estate Property Business
             </h5>
             <h5 className="text-xs font-hairline font-primary py-5  text-secondary">
-              We're already established since 2012, and in 10 years we have a
-              lot positive reviews and achievement.
+              Zima Immobilier has been established since 2012, earning a
+              wealth of positive reviews and achievements over the past decade.
             </h5>
 
             <span className="flex flex-row items-center space-x-2">
@@ -258,14 +258,12 @@ export default function Services() {
             <FiCreditCard className="my-2 text-secondaryx" size={24} />
 
             <h1 className="text-1xl font-normal font-primary text-[#fff]">
-              Affordable price with world class quality properties.
+              Affordable price with world-class quality properties.
             </h1>
             <h5 className="text-xs font-hairline font-primary py-5  text-secondary">
-              In the realm of real estate, we stand as a testament to the
-              perfect marriage between affordability and world-class quality.
-              Our properties redefine luxurious living at a price that won't
-              break the bank, ensuring that exceptional quality is accessible to
-              all.
+              At Zima Immobilier, we offer the perfect balance of affordability
+              and world-class quality. Our properties redefine luxurious living
+              at a price that’s accessible, ensuring exceptional quality for all.
             </h5>
 
             <span className="flex flex-row items-center space-x-2">
@@ -280,16 +278,14 @@ export default function Services() {
             <BiLike className="my-2 text-secondaryx" size={24} />
 
             <h1 className="text-1xl font-normal font-primary text-[#fff]">
-              Bring your ideas into a living products
+              Bring your ideas into a living reality
             </h1>
 
             <h5 className="text-xs font-hairline font-primary py-5  text-secondary">
-              Empower your creativity with our platform, where innovation meets
-              reality. We provide the ideal environment for bringing your ideas
-              to life, transforming mere concepts into living, breathing
-              products. Whether you envision cutting-edge gadgets, stylish home
-              decor, or groundbreaking technologies, our team of experts is
-              dedicated to making your dreams a reality.
+              At Zima Immobilier, we empower your vision by transforming ideas
+              into reality. Whether you dream of unique properties or innovative
+              real estate solutions, our expert team is dedicated to bringing
+              your concepts to life.
             </h5>
 
             <span className="flex flex-row items-center space-x-2">
@@ -303,10 +299,9 @@ export default function Services() {
       </div>
 
       <div className="px-5 py-20">
-
         <h1 className="text-center md:text-left text-1xl text-secondaryx font-bold  font-primary py-2">Why Choose Us:</h1>
         <p className="text-justify">
-          <span className="font-bold"> Expertise:</span> Our team comprises experienced real estate
+          <span className="font-bold"> Expertise:</span> Our team at Zima Immobilier comprises experienced real estate
           professionals with in-depth knowledge of the local market trends and
           regulations.  <span className="font-bold"> Customer-Centric Approach:</span>  We prioritize your needs and
           preferences, ensuring a personalized and hassle-free experience.
@@ -317,8 +312,7 @@ export default function Services() {
           property search to legal documentation and post-sale services, we
           offer end-to-end solutions for all your real estate requirements.
           Whether you are a first-time homebuyer, a seasoned investor, or a
-          property owner looking to sell or rent, Nextmovee Property
-          Services is your reliable partner. Contact us today to explore the
+          property owner looking to sell or rent, Zima Immobilier is your reliable partner. Contact us today to explore the
           endless possibilities in the world of real estate.
         </p>
       </div>
