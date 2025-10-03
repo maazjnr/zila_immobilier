@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar"; 
-import Recommend from "../components/Recommend/Recommend";
+// import Navbar from "../components/Navbar"; 
+// import Recommend from "../components/Recommend/Recommend";
 import { MdSell } from "react-icons/md";
 import { FaBookmark } from "react-icons/fa";
 import { AiFillShopping } from "react-icons/ai";
